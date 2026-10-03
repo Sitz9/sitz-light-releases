@@ -43,6 +43,7 @@ Show und nie im Gig-Modus. Jedes Update ist signiert und wird vor der Installati
 - Sitz Light hat jetzt ein eigenes Programmfenster und einen Installer für Windows und macOS (Apple Silicon und Intel, ab macOS 12).
 - Automatische Updates: Neue Versionen werden angeboten und erst nach deiner Bestätigung installiert, nie während die Lampen angesteuert werden. Ein Gig-Modus sperrt Updates ganz, und zur vorherigen Version kannst du jederzeit zurückwechseln.
 - Beim Beenden mit eingeschalteter Ausgabe fragt Sitz Light nach und schaltet vorher alle Lampen aus.
+- Startet Sitz Light einmal nicht, zeigt es jetzt verständlich, woran es liegt, und öffnet auf Knopfdruck die Log-Datei.
 - Bei allen Rückfragen ist die sichere Antwort vorausgewählt („Abbrechen“, „Später“): Ein versehentliches Enter schaltet nichts ein oder aus.
 - Neue Leistungsanzeige: Sie zeigt, ob Sitz Light auf deinem Rechner entspannt läuft.
 - Die DMX-Ausgabe unter Windows läuft jetzt gleichmäßig im Takt.

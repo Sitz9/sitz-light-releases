@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0-test.1",
+  "notes": "- Sitz Light hat jetzt ein eigenes Programmfenster und einen Installer für Windows und macOS (Apple Silicon und Intel, ab macOS 12).\n- Automatische Updates: Neue Versionen werden angeboten und erst nach deiner Bestätigung installiert, nie während die Lampen angesteuert werden. Ein Gig-Modus sperrt Updates ganz, und zur vorherigen Version kannst du jederzeit zurückwechseln.\n- Beim Beenden mit eingeschalteter Ausgabe fragt Sitz Light nach und schaltet vorher alle Lampen aus.\n- Bei allen Rückfragen ist die sichere Antwort vorausgewählt („Abbrechen“, „Später“): Ein versehentliches Enter schaltet nichts ein oder aus.\n- Neue Leistungsanzeige: Sie zeigt, ob Sitz Light auf deinem Rechner entspannt läuft.\n- Die DMX-Ausgabe unter Windows läuft jetzt gleichmäßig im Takt.",
+  "pub_date": "2026-10-03T10:19:19Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa2VhbVhtZmtOeHhwT2pqT0F6bW1NcldNRGlBaEJmVXptQVNXY2dzR1VpUTRiU2JqSExZNi9aWFZURkRVMlN1SVArZ2xaM2wvZ1ZsWU9lTWhDQnRZN0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDIyMzI3CWZpbGU6U2l0eiBMaWdodF8wLjIuMC10ZXN0LjFfeDY0X2RlLURFLm1zaQl2ZXJzaW9uOjAuMi4wLXRlc3QuMQpzekFZVmQ2UzBwdTd0ajhuUjZUaFhJWmxSUm51REFuR2x0NXRENnVFUHE0ejhVTjdvcGtXZHlSYXZYYll6S2FZcnhGOEU2cXFDRVpia3hrOVRjWXBCdz09Cg==",
+      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.2.0-test.1/Sitz-Light-0.2.0-test.1-windows-x64.msi"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1JkamZlc01JaHkrRGJ1Z3puV21Ia1ZFQldNd1dMOVVCQ05rRlV0SVFWMkdBL1JSV2FBMUMvdjVOM3U2L1VGakExSUJnYjFyK2IxMzNIY2t1RHZVdFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDIyMTg2CWZpbGU6U2l0eiBMaWdodC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjAtdGVzdC4xCldWSmd1Rkc1MnZmZUQxR1diWTByUTlKYjU5MlkrUXA1SU1yaXl2VlkvSThTSUR4YUIyMVR0WWdzdEtBMkZBd2pjOUxWaG1BVTFhbXRIUXU2cFVWSkN3PT0K",
+      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.2.0-test.1/Sitz-Light-0.2.0-test.1-macos-apple-silicon.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1dkSEFVaXdhTTI2dkRabmV4dXlwTmU1b3F0bEM5dVFkclRSSG56RExVKzBuOEl6UnhMODhhcFZwaDB0TlVSamtjZGZOS3ZvYWJWdFN2SDZpNWVlQkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDIyNjMzCWZpbGU6U2l0eiBMaWdodC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjAtdGVzdC4xClgxd3ZCbFNDWTlFQ1EwKzNUcTMrdFpGWUYzUTV3MkdBYk1pcnpiTzBwMC8zTDloK1VLZTQxa0l2ZGlGSDVyUzh2K3REOU9KNnl1R3c4eGgxbnUzaENBPT0K",
+      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.2.0-test.1/Sitz-Light-0.2.0-test.1-macos-intel.app.tar.gz"
+    }
+  }
+}
