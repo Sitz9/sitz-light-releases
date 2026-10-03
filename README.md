@@ -22,6 +22,7 @@ Bedarf live ein. Bedienung am Rechner, im Browser und am iPad/iPhone.
 ## Download und Installation
 
 Die aktuelle Version findest du unter **[Releases](../../releases/latest)**.
+Testversionen sind dort als „Pre-release“ markiert.
 
 - **Windows:** `…-windows-x64.msi` herunterladen und doppelklicken. Erscheint
   „Der Computer wurde durch Windows geschützt“, auf „Weitere Informationen“ →
@@ -32,17 +33,27 @@ Die aktuelle Version findest du unter **[Releases](../../releases/latest)**.
 - **iPad, iPhone, Browser:** keine Installation nötig. Die Adresse bzw. den
   QR-Code zeigt Sitz Light am Rechner unter „System → Webzugriff“.
 
+**Updates:** Sitz Light bietet neue Versionen selbst an, nie während einer laufenden
+Show und nie im Gig-Modus. Jedes Update ist signiert und wird vor der Installation geprüft.
+
 ## Neu
 
-Die erste Version mit Installer folgt in Kürze.
+### Version 0.2.0 (Testphase ab 03.10.2026)
+
+- Sitz Light hat jetzt ein eigenes Programmfenster und einen Installer für Windows und macOS (Apple Silicon und Intel, ab macOS 12).
+- Automatische Updates: Neue Versionen werden angeboten und erst nach deiner Bestätigung installiert, nie während die Lampen angesteuert werden. Ein Gig-Modus sperrt Updates ganz, und zur vorherigen Version kannst du jederzeit zurückwechseln.
+- Beim Beenden mit eingeschalteter Ausgabe fragt Sitz Light nach und schaltet vorher alle Lampen aus.
+- Bei allen Rückfragen ist die sichere Antwort vorausgewählt („Abbrechen“, „Später“): Ein versehentliches Enter schaltet nichts ein oder aus.
+- Neue Leistungsanzeige: Sie zeigt, ob Sitz Light auf deinem Rechner entspannt läuft.
+- Die DMX-Ausgabe unter Windows läuft jetzt gleichmäßig im Takt.
 
 ## Als Nächstes geplant
 
-- Automatische Updates, nie während einer laufenden Show
-- Gerätedatenbank mit Lampen bekannter Hersteller, eigene Geräte selbst anlegen
-- Takt aus rekordbox, auch auf einem eigenen Licht-Rechner
-- Bühnenplan mit eingemessenen Moving Heads und Sperrbereichen
-- Verfolgen: Moving Heads folgen dem Finger, z. B. aufs Brautpaar
-- Auto-Director mit Stimmungen (Dinner, Eröffnungstanz, Party, Peak)
-- App für iPhone und iPad
-- Später optional: 3D-Vorschau der Bühne
+- **Gerätedatenbank**: Tausende Lampen bekannter Hersteller zum Auswählen, ohne Kanäle von Hand einzutippen. Fehlende Geräte lassen sich in wenigen Minuten selbst anlegen und direkt an der Lampe prüfen.
+- **Takt aus rekordbox**: Das Licht folgt automatisch Tempo, Takt und Songaufbau, auch wenn Sitz Light auf einem eigenen Rechner läuft.
+- **Bühnenplan**: Lampen auf einem Plan anordnen, Moving Heads auf die Tanzfläche einmessen und Bereiche sperren, in die nie geleuchtet wird.
+- **Verfolgen**: Moving Heads folgen dem Finger auf dem Bühnenplan, zum Beispiel aufs Brautpaar beim Eröffnungstanz.
+- **Effekte und Auto-Director**: Die Show läuft von selbst passend zur Musik. Du wählst nur die Stimmung (Dinner, Eröffnungstanz, Party, Peak) und die Intensität.
+- **Live eingreifen**: Farbe festhalten, Look halten, Strobe, Blinder und Blackout auf Knopfdruck.
+- **App für iPhone und iPad**: Bedienung als Fernbedienung im lokalen Netz.
+- **Später, optional**: 3D-Vorschau der Bühne, um Looks ohne aufgebaute Lampen zu bauen.
