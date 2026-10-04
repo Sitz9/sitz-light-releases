@@ -1,19 +1,15 @@
 {
-  "version": "0.3.0",
-  "notes": "- Leertaste = Tap: Das Tempo lässt sich jetzt per Tastatur klopfen, solange Sitz Light vorne ist. „?“ zeigt alle Tastenkürzel, die Belegung lässt sich ändern.\n- Die Leistungsanzeige zeigt beim Lichttakt jetzt getrennt die gleichbleibende Verzögerung und die Schwankung.\n- Gleichmäßigerer Lichttakt auf dem Mac: Das Licht kommt jetzt ohne die bisherige Verzögerung von rund 5 ms und schwankt kaum noch.\n- Neue Taktprüfung unter „Erweitert“ für die Fehlersuche.\n- Auf Macs mit Apple-Prozessor gibt es nur noch stabile Versionen.",
-  "pub_date": "2026-10-04T10:25:35Z",
+  "version": "0.4.0-test.1",
+  "notes": "- Neu unter System: **Lizenz**. Hier lässt sich eine Lizenzdatei laden, und hier steht der Rechner-Code, falls eine Lizenz für genau diesen Rechner gebraucht wird.\n- Einmal kaufen, für immer nutzen: alle Funktionen und alle künftigen Updates inklusive, kein Abo, kein Ablaufdatum, keine Konten. Die Lizenz wird offline geprüft und beeinflusst nie eine laufende Show.\n- In dieser Testversion ist die Lizenz noch freiwillig; alles funktioniert wie bisher.",
+  "pub_date": "2026-10-04T17:18:08Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1RQOWlEM3lXdlpFbVR6dUxDMXdwait5T0o5a2IyVUllOHAzRWdmZjBKanB3ZzZPbFZieEhqQTZvbkJyc2kyQ1hYVUpmL092b2xrcGdudkJkNFNGdmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTA5MjQyCWZpbGU6U2l0eiBMaWdodF8wLjMuMF94NjRfZGUtREUubXNpCXZlcnNpb246MC4zLjAKeklMTUtwbytwVmNSRmtPek5KOFE1V1oybHhIRDIzRlRrdEJYTnlzUWlNL2ZuTTZZTU9SNWNkK0VPRTdkSVBIVXpmc25yb25tVm9wTldKV1pQcitjRHc9PQo=",
-      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.3.0/Sitz-Light-0.3.0-windows-x64.msi"
-    },
-    "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1E1c0huY3BxeXNsQUlEV0VCSlpkU00wWkxoY21LY3NPUUdwSURZaCtrdGQvdStUZi82NmhzMkovREhtWWJmVlY5V3N3aTRYYXgwZUFPMzZFRDJQaHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTA5MTI1CWZpbGU6U2l0eiBMaWdodC5hcHAudGFyLmd6CXZlcnNpb246MC4zLjAKbnJDODlXTUk0SmVOQ0dlOVNlb2J2VnNDa2VqbUdFRTBTakdjem56KzQwK2pYUzI4QTZqK1RtbjdyRVdGM2pURDRpcW1zcFNDdVFRMGRVUzVqbDV1RGc9PQo=",
-      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.3.0/Sitz-Light-0.3.0-macos-apple-silicon.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1lhWnpyRWM3SmFsZXhtVVJpTWowMUFaczFiWWFYZCtobU5sV3pGejRhbDVibjVvUTdHSmV2Q0JQY0VVMEtPUlVveDdwUjVEMHF0WmpNWXptZ1d6M3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTM0MTI1CWZpbGU6U2l0eiBMaWdodF8wLjQuMC10ZXN0LjFfeDY0X2RlLURFLm1zaQl2ZXJzaW9uOjAuNC4wLXRlc3QuMQozektkMmR3TEZvT25NWHJER3RjaWpRL1U2Zm5yVE94QlZjczRLNS9pK0hreWhPUWRKWXE1Y3NvMTVhQUQzK0RaZ2d3RWtpUE01RW9SazZIZ3ZjTFZBdz09Cg==",
+      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.4.0-test.1/Sitz-Light-0.4.0-test.1-windows-x64.msi"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1Z0eU5yRTVWR1dlNUs3OFY5Z3lUYVQwUStpeWtjM3FmNDVSNzFRUU5BU2M2cEZYaDlPOHJ3dGxaUm9uSTBkekhiMnQ4Z3JEMmxRUE91N0s5M2xKd3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTA5NDg4CWZpbGU6U2l0eiBMaWdodC5hcHAudGFyLmd6CXZlcnNpb246MC4zLjAKR3Bmc0tJNEozZ1RWNVpLL1o0V3grdlVYZ3N5bmtLRllLUU5uQnJ5NjZLd2NLalQzNlNRSWtCNEEwemVuelhSTHdrN09MbEtRUXdKc1MxTm9iVUI1QXc9PQo=",
-      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.3.0/Sitz-Light-0.3.0-macos-intel.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1NuTEUzS2NwclN5UHBQKytVbk9sd3N2RVRXWlY0cmROZUw3OVZ3bWVFUVA1K0lEUDRpQTlvYWxRZXhyeE5paFdwZ2ZKRjY1by9kWEU5em16YVczWmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTM0MjM1CWZpbGU6U2l0eiBMaWdodC5hcHAudGFyLmd6CXZlcnNpb246MC40LjAtdGVzdC4xCndtdk1UODlFa1d4M1JJU0hzMExOT1FjR25DU3NGUkY3V3NkV012emVRb0hjOEJGbWk1bmdmenAxclA5V0FNN1UrbzdWRnE4MzdsbnJJYURkSU5BQUF3PT0K",
+      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.4.0-test.1/Sitz-Light-0.4.0-test.1-macos-intel.app.tar.gz"
     }
   }
 }
