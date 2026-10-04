@@ -63,3 +63,4 @@ Show und nie im Gig-Modus. Jedes Update ist signiert und wird vor der Installati
 - **Live eingreifen**: Farbe festhalten, Look halten, Strobe, Blinder und Blackout auf Knopfdruck.
 - **App für iPhone und iPad**: Bedienung als Fernbedienung im lokalen Netz.
 - **Später, optional**: 3D-Vorschau der Bühne, um Looks ohne aufgebaute Lampen zu bauen.
+- **Faire Lizenz**: Einmal kaufen, für immer nutzen – alle Funktionen und alle Updates inklusive, ohne Abo und ohne Konto.
