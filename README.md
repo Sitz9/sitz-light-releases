@@ -38,6 +38,15 @@ Show und nie im Gig-Modus. Jedes Update ist signiert und wird vor der Installati
 
 ## Neu
 
+### Version 0.4.0 (04.10.2026)
+
+- Neue, aufgeräumte Oberfläche: oben die Bereiche Live, Geräte, Looks und Einstellungen, am Handy als große Reiter unten. Auf großen Bildschirmen wird jetzt die ganze Breite genutzt.
+- Immer sichtbar oben rechts: Verbindung, Ausgabe AN/AUS, Tempo, „Update verfügbar“ und der Lizenzstatus. Ein Klick führt direkt zur passenden Einstellung.
+- Lizenz: Einmal kaufen, für immer nutzen, alle Funktionen und alle künftigen Updates inklusive, kein Abo, kein Ablaufdatum, keine Konten. Die Lizenz wird offline geprüft und unterbricht nie eine laufende Show.
+- Ohne Lizenz läuft Sitz Light als Demo: alle Funktionen nutzbar, echte DMX-Ausgabe 10 Minuten je Sitzung, danach blendet das Licht sanft aus. Rechtzeitige Hinweise am Rand, nie mitten im Bild.
+- Updates werden schneller gemeldet, als kleiner Hinweis statt als Fenster. Installiert wird weiterhin nur nach Bestätigung am Licht-Rechner, nie während einer Show.
+- Neu unter Einstellungen → Über und Leistung: die Neuigkeiten der letzten Versionen.
+
 ### Version 0.3.0 (04.10.2026)
 
 - Leertaste = Tap: Das Tempo lässt sich jetzt per Tastatur klopfen, solange Sitz Light vorne ist. „?“ zeigt alle Tastenkürzel, die Belegung lässt sich ändern.
@@ -71,4 +80,3 @@ Show und nie im Gig-Modus. Jedes Update ist signiert und wird vor der Installati
 - **Live eingreifen**: Farbe festhalten, Look halten, Strobe, Blinder und Blackout auf Knopfdruck.
 - **App für iPhone und iPad**: Bedienung als Fernbedienung im lokalen Netz.
 - **Später, optional**: 3D-Vorschau der Bühne, um Looks ohne aufgebaute Lampen zu bauen.
-- **Faire Lizenz**: Einmal kaufen, für immer nutzen – alle Funktionen und alle Updates inklusive, ohne Abo und ohne Konto.

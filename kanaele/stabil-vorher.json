@@ -1,19 +1,19 @@
 {
-  "version": "0.2.0",
-  "notes": "- Sitz Light hat jetzt ein eigenes Programmfenster und einen Installer für Windows und macOS (Apple Silicon und Intel, ab macOS 12).\n- Automatische Updates: Neue Versionen werden angeboten und erst nach deiner Bestätigung installiert, nie während die Lampen angesteuert werden. Ein Gig-Modus sperrt Updates ganz, und zur vorherigen Version kannst du jederzeit zurückwechseln.\n- Beim Beenden mit eingeschalteter Ausgabe fragt Sitz Light nach und schaltet vorher alle Lampen aus.\n- Beim Beenden (auch über ⌘Q, das Dock oder beim Abmelden) gehen die Lampen zuverlässig aus, und Sitz Light räumt sich vollständig auf.\n- Gleichmäßigerer Lichttakt auf Notebooks im Akkubetrieb; die Leistungsanzeige zeigt jetzt auch Akku oder Netzteil.\n- Der Mac-Installer zeigt, wohin Sitz Light gezogen werden muss.\n- Startet Sitz Light einmal nicht, zeigt es jetzt verständlich, woran es liegt, und öffnet auf Knopfdruck die Log-Datei.\n- Bei allen Rückfragen ist die sichere Antwort vorausgewählt („Abbrechen“, „Später“): Ein versehentliches Enter schaltet nichts ein oder aus.\n- Neue Leistungsanzeige: Sie zeigt, ob Sitz Light auf deinem Rechner entspannt läuft.\n- Die DMX-Ausgabe unter Windows läuft jetzt gleichmäßig im Takt.\n- Unter macOS wird die Gleichmäßigkeit des Lichttakts in einer der nächsten Versionen weiter verbessert.",
-  "pub_date": "2026-10-03T18:36:35Z",
+  "version": "0.3.0",
+  "notes": "- Leertaste = Tap: Das Tempo lässt sich jetzt per Tastatur klopfen, solange Sitz Light vorne ist. „?“ zeigt alle Tastenkürzel, die Belegung lässt sich ändern.\n- Die Leistungsanzeige zeigt beim Lichttakt jetzt getrennt die gleichbleibende Verzögerung und die Schwankung.\n- Gleichmäßigerer Lichttakt auf dem Mac: Das Licht kommt jetzt ohne die bisherige Verzögerung von rund 5 ms und schwankt kaum noch.\n- Neue Taktprüfung unter „Erweitert“ für die Fehlersuche.\n- Auf Macs mit Apple-Prozessor gibt es nur noch stabile Versionen.",
+  "pub_date": "2026-10-04T10:25:35Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1JETXJVMEpkQkZkZUoxTEtocWpoUXBqRytZMU5ieDBIVEFkK2F0dG5SbzNqc0svT3RHT0RuTW11UDdWTHdUbjdMSGF0U0k2eHdQRjRiMCtFUFcrRXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDUyMjA2CWZpbGU6U2l0eiBMaWdodF8wLjIuMF94NjRfZGUtREUubXNpCXZlcnNpb246MC4yLjAKNk5TSjlhNTN2YlZka2VDODNSc0w1WEZMbVhvZ1dTOW9XZHloS1dwcis3Y3I4c3pEaVFIcTZ4Uy9yNVBNRTF5dGpNbUMzOFAzZmJ2VlozVDRpSU9WQ1E9PQo=",
-      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.2.0/Sitz-Light-0.2.0-windows-x64.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1RQOWlEM3lXdlpFbVR6dUxDMXdwait5T0o5a2IyVUllOHAzRWdmZjBKanB3ZzZPbFZieEhqQTZvbkJyc2kyQ1hYVUpmL092b2xrcGdudkJkNFNGdmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTA5MjQyCWZpbGU6U2l0eiBMaWdodF8wLjMuMF94NjRfZGUtREUubXNpCXZlcnNpb246MC4zLjAKeklMTUtwbytwVmNSRmtPek5KOFE1V1oybHhIRDIzRlRrdEJYTnlzUWlNL2ZuTTZZTU9SNWNkK0VPRTdkSVBIVXpmc25yb25tVm9wTldKV1pQcitjRHc9PQo=",
+      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.3.0/Sitz-Light-0.3.0-windows-x64.msi"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa2NsU1VsRkRwRWVUZDFrNDgzQjJGOFBhdy9FeHpFcXhkMlF4YS90NzhwS1VhVUQrOXhDeE5WRjBZY3FiOEtvTHU5VGFzYXB6MFFjbXZiSis3VDFNTlFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDUxOTI1CWZpbGU6U2l0eiBMaWdodC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjAKTS9wY1pBbGVKZmRob25MK1VBTlRyNkF5YVlKdmFWWUpyWEx0am9JU05KdUNaRTRaZWcvOG5kMUx1czRJWWVRejFvQVoybnR4djVKNXo4aisvc015QXc9PQo=",
-      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.2.0/Sitz-Light-0.2.0-macos-apple-silicon.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1E1c0huY3BxeXNsQUlEV0VCSlpkU00wWkxoY21LY3NPUUdwSURZaCtrdGQvdStUZi82NmhzMkovREhtWWJmVlY5V3N3aTRYYXgwZUFPMzZFRDJQaHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTA5MTI1CWZpbGU6U2l0eiBMaWdodC5hcHAudGFyLmd6CXZlcnNpb246MC4zLjAKbnJDODlXTUk0SmVOQ0dlOVNlb2J2VnNDa2VqbUdFRTBTakdjem56KzQwK2pYUzI4QTZqK1RtbjdyRVdGM2pURDRpcW1zcFNDdVFRMGRVUzVqbDV1RGc9PQo=",
+      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.3.0/Sitz-Light-0.3.0-macos-apple-silicon.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1VnTDB6amMwVGt5RDV0Mkl4QUk1dzhTNDhhTnNTUzNRSlJFSEdyRTlYL0wxUUZQcHhOQ3hleStadHlJYkZZcXYxREcxdjVQTXBuZEF0RlhwT2ovbUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDUyNDQ3CWZpbGU6U2l0eiBMaWdodC5hcHAudGFyLmd6CXZlcnNpb246MC4yLjAKZFdCbzl0UEZHRUtOdXpZQTZ0a05zdmtHS0xYVTVsUHY3akJqMEtFNDJlSWRkbkh0Z1IvUnhzbkdaWWNmZGM3bS9XYXlna0t5dFZvTUhiRWcrVU02RFE9PQo=",
-      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.2.0/Sitz-Light-0.2.0-macos-intel.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1Z0eU5yRTVWR1dlNUs3OFY5Z3lUYVQwUStpeWtjM3FmNDVSNzFRUU5BU2M2cEZYaDlPOHJ3dGxaUm9uSTBkekhiMnQ4Z3JEMmxRUE91N0s5M2xKd3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTA5NDg4CWZpbGU6U2l0eiBMaWdodC5hcHAudGFyLmd6CXZlcnNpb246MC4zLjAKR3Bmc0tJNEozZ1RWNVpLL1o0V3grdlVYZ3N5bmtLRllLUU5uQnJ5NjZLd2NLalQzNlNRSWtCNEEwemVuelhSTHdrN09MbEtRUXdKc1MxTm9iVUI1QXc9PQo=",
+      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.3.0/Sitz-Light-0.3.0-macos-intel.app.tar.gz"
     }
   }
 }
