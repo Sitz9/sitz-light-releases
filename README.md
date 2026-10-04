@@ -38,6 +38,14 @@ Show und nie im Gig-Modus. Jedes Update ist signiert und wird vor der Installati
 
 ## Neu
 
+### Version 0.3.0 (04.10.2026)
+
+- Leertaste = Tap: Das Tempo lässt sich jetzt per Tastatur klopfen, solange Sitz Light vorne ist. „?“ zeigt alle Tastenkürzel, die Belegung lässt sich ändern.
+- Die Leistungsanzeige zeigt beim Lichttakt jetzt getrennt die gleichbleibende Verzögerung und die Schwankung.
+- Gleichmäßigerer Lichttakt auf dem Mac: Das Licht kommt jetzt ohne die bisherige Verzögerung von rund 5 ms und schwankt kaum noch.
+- Neue Taktprüfung unter „Erweitert“ für die Fehlersuche.
+- Auf Macs mit Apple-Prozessor gibt es nur noch stabile Versionen.
+
 ### Version 0.2.0 (03.10.2026)
 
 - Sitz Light hat jetzt ein eigenes Programmfenster und einen Installer für Windows und macOS (Apple Silicon und Intel, ab macOS 12).
@@ -54,7 +62,7 @@ Show und nie im Gig-Modus. Jedes Update ist signiert und wird vor der Installati
 
 ## Als Nächstes geplant
 
-- **Bedienung per Tastatur**: Tap, Strobe, Blinder und Stimmungen auf frei wählbaren Tasten, nur wenn Sitz Light im Vordergrund ist.
+- **Mehr Tastenkürzel**: Strobe, Blinder, Blackout und Stimmungen auf frei wählbaren Tasten (Tap per Leertaste gibt es schon).
 - **Gerätedatenbank**: Tausende Lampen bekannter Hersteller zum Auswählen, ohne Kanäle von Hand einzutippen. Fehlende Geräte lassen sich in wenigen Minuten selbst anlegen und direkt an der Lampe prüfen.
 - **Takt aus rekordbox**: Das Licht folgt automatisch Tempo, Takt und Songaufbau, auch wenn Sitz Light auf einem eigenen Rechner läuft.
 - **Bühnenplan**: Lampen auf einem Plan anordnen, Moving Heads auf die Tanzfläche einmessen und Bereiche sperren, in die nie geleuchtet wird.
