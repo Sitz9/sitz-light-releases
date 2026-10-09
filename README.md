@@ -36,6 +36,16 @@ Testversionen sind dort als „Pre-release“ markiert.
 **Updates:** Sitz Light bietet neue Versionen selbst an, nie während einer laufenden
 Show und nie im Gig-Modus. Jedes Update ist signiert und wird vor der Installation geprüft.
 
+## Empfohlenes Setup
+
+Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
+
+- **Ein eigener Router (oder Reise-Router) im Rack:** ein stabiles, eigenes Netz für den Licht-Rechner, den Art-Net-Node und das iPad. So bist du unabhängig vom WLAN der Location, das bei vollem Saal oft aussetzt. Den Licht-Rechner und den Node **per Kabel (LAN)** anschließen, das iPad per WLAN. Ein Mac ohne Netzwerkbuchse braucht dafür einen **USB-C-auf-LAN-Adapter**. Feste IP-Adressen für den Node vergeben (z. B. 192.168.2.50) und **nie die Broadcast-Adresse** des Netzes (meist die Endung .255) oder die Netzadresse (.0) verwenden.
+- **Ein Audio-Interface für die Musikerkennung:** z. B. ein kleines USB-Interface am Booth- oder Rec-Ausgang des Mixers. Sitz Light erkennt daran Takt, Energie, Build-ups, Drops und Phrasen, auch ohne rekordbox. Den Pegel so einstellen, dass die Pegel-Ampel in Sitz Light grün zeigt. Bei Brummen ein Gerät mit Masse-Trennung (Ground-Lift oder DI-Box) dazwischen.
+- **Ein Art-Net-Node** (Ethernet auf DMX) **oder ein galvanisch getrennter USB-DMX-Adapter** mit eigenem Prozessor (Enttec-DMX-USB-Pro-kompatibel). Der Node ist die robustere Wahl: Rechner und Lichtanlage sind elektrisch getrennt, das verhindert Brummen im Ton und schützt die Geräte. Am Node das Universe so einstellen, wie Sitz Light es unter DMX-Ausgabe anzeigt („am Node: Net · Subnet · Universe“).
+
+**Mit rekordbox:** Für Takt und Phrasen direkt aus rekordbox gibt es das Programm **rkbx_link** (eigenes Projekt, nicht Teil von Sitz Light; für ältere rekordbox-Versionen als Evaluierung, für aktuelle Versionen mit Lizenz): <https://github.com/grufkork/rkbx_link>. Ohne rkbx_link arbeitet Sitz Light mit dem Audio-Interface.
+
 ## Neu
 
 ### Version 0.5.0 (09.10.2026)
@@ -76,7 +86,7 @@ Show und nie im Gig-Modus. Jedes Update ist signiert und wird vor der Installati
 - **Takt noch genauer**: Licht-Verzögerung für alle Taktquellen mit Testblitz einstellen, Art-Net-Nodes im Netz auf Knopfdruck finden.
 - **Bühnenplan**: Lampen auf einem Plan anordnen, Moving Heads auf die Tanzfläche einmessen und Bereiche sperren, in die nie geleuchtet wird.
 - **Verfolgen**: Moving Heads folgen dem Finger auf dem Bühnenplan, zum Beispiel aufs Brautpaar beim Eröffnungstanz.
-- **Effekte und Auto-Director**: Die Show läuft von selbst passend zur Musik. Du wählst nur die Stimmung (Dinner, Eröffnungstanz, Party, Peak) und die Intensität.
-- **Live eingreifen**: Farbe festhalten, Look halten, Strobe, Blinder und Blackout auf Knopfdruck.
+- **Auto-Director verfeinern**: mehr Looks, Gobos und Prismen, Vorschau einzelner Looks.
+- **Live eingreifen**: Intensität und Stimmungen per Taste, eigener MIDI-Controller.
 - **App für iPhone und iPad**: Bedienung als Fernbedienung im lokalen Netz.
 - **Später, optional**: 3D-Vorschau der Bühne, um Looks ohne aufgebaute Lampen zu bauen.
