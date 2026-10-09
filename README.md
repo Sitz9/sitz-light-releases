@@ -38,6 +38,21 @@ Show und nie im Gig-Modus. Jedes Update ist signiert und wird vor der Installati
 
 ## Neu
 
+### Version 0.5.0 (09.10.2026)
+
+- Neu: die Gerätedatenbank mit über 2.200 Lampen bekannter Hersteller. Gerät suchen, Modus wählen, in den Patch übernehmen – ohne Kanäle von Hand einzutippen. Die Fader zeigen jetzt, was jeder Kanal tut (Dimmer, Rot, Pan …).
+- Neu: eigene Geräte anlegen, Schritt für Schritt, auch am iPad. Ein ähnliches Gerät lässt sich als Vorlage kopieren; Profile lassen sich exportieren und importieren (auch QLC+-Dateien).
+- Mehr Sicherheit: Eingebaute Laser bleiben aus, bis du sie für das einzelne Gerät freigibst. Reset und Automatikprogramme der Lampen werden nie versehentlich ausgelöst.
+- Dein bisheriger Patch wird beim Update automatisch übernommen; die alte Datei bleibt als Sicherung erhalten.
+- Den Kanal „Test“ gibt es jetzt auf allen Macs. Gibt es eine Testversion nur für Windows, bleibt dein Mac ohne Meldung auf seiner Version.
+- Neu: Testmodus für jede Lampe. Kanal für Kanal durch die Wertebereiche fahren und mit der Anleitung vergleichen; Start und Ende immer mit dunklen Lampen.
+- Neu: Sitz Light hört auf den Takt. Wählbar sind rkbx_link (Takt und Phrasen aus rekordbox), ein Audio-Eingang (z. B. dein Interface am Mixer) oder Tap. Fällt eine Quelle aus, übernimmt automatisch die nächste, und der Takt läuft weiter.
+- Neu: Musikerkennung. Sitz Light zeigt, ob die Musik gerade ruhig ist, groovt, sich aufbaut, droppt oder im Breakdown ist, und warum. Dazu Tief, Mitte, Hoch und der Verlauf der letzten Beats.
+- Neu: Test-Show auf den Beat. Helligkeit pulst, Farben wechseln je Takt, die LED-Bar läuft über ihre Segmente. Master und Blackout sind immer erreichbar; Moving Heads bewegen sich erst, wenn du es ausdrücklich einschaltest.
+- Neu: Unter Looks stellst du ein, wie das Licht reagiert: nur auf den Takt oder je nach Musikzustand, mit eigener Helligkeit, Puls und Farbwechsel für jeden Zustand.
+- Neu: Kanalübersicht unter Geräte → Adressen. Alle 512 Kanäle auf einen Blick, Geräte per Ziehen an eine neue Adresse verschieben; belegte Kanäle werden nie überschrieben.
+- Der Audio-Eingang öffnet sich nie von selbst beim Start, nur wenn du ihn wählst. Verweigert das System den Zugriff, sagt Sitz Light, wo du ihn erlaubst.
+
 ### Version 0.4.0 (04.10.2026)
 
 - Neue, aufgeräumte Oberfläche: oben die Bereiche Live, Geräte, Looks und Einstellungen, am Handy als große Reiter unten. Auf großen Bildschirmen wird jetzt die ganze Breite genutzt.
@@ -55,25 +70,10 @@ Show und nie im Gig-Modus. Jedes Update ist signiert und wird vor der Installati
 - Neue Taktprüfung unter „Erweitert“ für die Fehlersuche.
 - Auf Macs mit Apple-Prozessor gibt es nur noch stabile Versionen.
 
-### Version 0.2.0 (03.10.2026)
-
-- Sitz Light hat jetzt ein eigenes Programmfenster und einen Installer für Windows und macOS (Apple Silicon und Intel, ab macOS 12).
-- Automatische Updates: Neue Versionen werden angeboten und erst nach deiner Bestätigung installiert, nie während die Lampen angesteuert werden. Ein Gig-Modus sperrt Updates ganz, und zur vorherigen Version kannst du jederzeit zurückwechseln.
-- Beim Beenden mit eingeschalteter Ausgabe fragt Sitz Light nach und schaltet vorher alle Lampen aus.
-- Beim Beenden (auch über ⌘Q, das Dock oder beim Abmelden) gehen die Lampen zuverlässig aus, und Sitz Light räumt sich vollständig auf.
-- Gleichmäßigerer Lichttakt auf Notebooks im Akkubetrieb; die Leistungsanzeige zeigt jetzt auch Akku oder Netzteil.
-- Der Mac-Installer zeigt, wohin Sitz Light gezogen werden muss.
-- Startet Sitz Light einmal nicht, zeigt es jetzt verständlich, woran es liegt, und öffnet auf Knopfdruck die Log-Datei.
-- Bei allen Rückfragen ist die sichere Antwort vorausgewählt („Abbrechen“, „Später“): Ein versehentliches Enter schaltet nichts ein oder aus.
-- Neue Leistungsanzeige: Sie zeigt, ob Sitz Light auf deinem Rechner entspannt läuft.
-- Die DMX-Ausgabe unter Windows läuft jetzt gleichmäßig im Takt.
-- Unter macOS wird die Gleichmäßigkeit des Lichttakts in einer der nächsten Versionen weiter verbessert.
-
 ## Als Nächstes geplant
 
 - **Mehr Tastenkürzel**: Strobe, Blinder, Blackout und Stimmungen auf frei wählbaren Tasten (Tap per Leertaste gibt es schon).
-- **Gerätedatenbank**: Tausende Lampen bekannter Hersteller zum Auswählen, ohne Kanäle von Hand einzutippen. Fehlende Geräte lassen sich in wenigen Minuten selbst anlegen und direkt an der Lampe prüfen.
-- **Takt aus rekordbox**: Das Licht folgt automatisch Tempo, Takt und Songaufbau, auch wenn Sitz Light auf einem eigenen Rechner läuft.
+- **Takt noch genauer**: Licht-Verzögerung für alle Taktquellen mit Testblitz einstellen, Art-Net-Nodes im Netz auf Knopfdruck finden.
 - **Bühnenplan**: Lampen auf einem Plan anordnen, Moving Heads auf die Tanzfläche einmessen und Bereiche sperren, in die nie geleuchtet wird.
 - **Verfolgen**: Moving Heads folgen dem Finger auf dem Bühnenplan, zum Beispiel aufs Brautpaar beim Eröffnungstanz.
 - **Effekte und Auto-Director**: Die Show läuft von selbst passend zur Musik. Du wählst nur die Stimmung (Dinner, Eröffnungstanz, Party, Peak) und die Intensität.

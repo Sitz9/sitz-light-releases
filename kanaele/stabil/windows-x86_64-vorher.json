@@ -1,0 +1,11 @@
+{
+  "version": "0.4.0",
+  "notes": "- Neue, aufgeräumte Oberfläche: oben die Bereiche Live, Geräte, Looks und Einstellungen, am Handy als große Reiter unten. Auf großen Bildschirmen wird jetzt die ganze Breite genutzt.\n- Immer sichtbar oben rechts: Verbindung, Ausgabe AN/AUS, Tempo, „Update verfügbar“ und der Lizenzstatus. Ein Klick führt direkt zur passenden Einstellung.\n- Lizenz: Einmal kaufen, für immer nutzen, alle Funktionen und alle künftigen Updates inklusive, kein Abo, kein Ablaufdatum, keine Konten. Die Lizenz wird offline geprüft und unterbricht nie eine laufende Show.\n- Ohne Lizenz läuft Sitz Light als Demo: alle Funktionen nutzbar, echte DMX-Ausgabe 10 Minuten je Sitzung, danach blendet das Licht sanft aus. Rechtzeitige Hinweise am Rand, nie mitten im Bild.\n- Updates werden schneller gemeldet, als kleiner Hinweis statt als Fenster. Installiert wird weiterhin nur nach Bestätigung am Licht-Rechner, nie während einer Show.\n- Neu unter Einstellungen → Über und Leistung: die Neuigkeiten der letzten Versionen.",
+  "pub_date": "2026-10-04T21:20:38Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa2RnZExqdENGc01qenZZTFArcFI5dkxNSmRSbncyM2cvL3R6NXBFckhHck0yYmtEazFLTXFqOVhmUVI3MEZWSkE4WXRROXdRTGdvWUNyajU3ZmhrZ2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTQ4NzYyCWZpbGU6U2l0eiBMaWdodF8wLjQuMF94NjRfZGUtREUubXNpCXZlcnNpb246MC40LjAKMG9NUzZzQzh2R2JXNzd5M1U1V1orZ0QxQ0wzcjQ0VUdhMFV6c2pLdDZTTU1EeFdYdUxYYWNYWXJ2elU5S01haEdtZUFEQk1YTW43VnhqYWdkS2FQQVE9PQo=",
+      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.4.0/Sitz-Light-0.4.0-windows-x64.msi"
+    }
+  }
+}

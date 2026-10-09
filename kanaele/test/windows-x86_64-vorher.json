@@ -1,11 +1,11 @@
 {
-  "version": "0.4.0",
-  "notes": "- Neue, aufgeräumte Oberfläche: oben die Bereiche Live, Geräte, Looks und Einstellungen, am Handy als große Reiter unten. Auf großen Bildschirmen wird jetzt die ganze Breite genutzt.\n- Immer sichtbar oben rechts: Verbindung, Ausgabe AN/AUS, Tempo, „Update verfügbar“ und der Lizenzstatus. Ein Klick führt direkt zur passenden Einstellung.\n- Lizenz: Einmal kaufen, für immer nutzen, alle Funktionen und alle künftigen Updates inklusive, kein Abo, kein Ablaufdatum, keine Konten. Die Lizenz wird offline geprüft und unterbricht nie eine laufende Show.\n- Ohne Lizenz läuft Sitz Light als Demo: alle Funktionen nutzbar, echte DMX-Ausgabe 10 Minuten je Sitzung, danach blendet das Licht sanft aus. Rechtzeitige Hinweise am Rand, nie mitten im Bild.\n- Updates werden schneller gemeldet, als kleiner Hinweis statt als Fenster. Installiert wird weiterhin nur nach Bestätigung am Licht-Rechner, nie während einer Show.\n- Neu unter Einstellungen → Über und Leistung: die Neuigkeiten der letzten Versionen.",
-  "pub_date": "2026-10-04T21:20:38Z",
+  "version": "0.5.0-test.1",
+  "notes": "- Neu: die Gerätedatenbank mit über 2.200 Lampen bekannter Hersteller. Gerät suchen, Modus wählen, in den Patch übernehmen – ohne Kanäle von Hand einzutippen. Die Fader zeigen jetzt, was jeder Kanal tut (Dimmer, Rot, Pan …).\n- Neu: eigene Geräte anlegen, Schritt für Schritt, auch am iPad. Ein ähnliches Gerät lässt sich als Vorlage kopieren; Profile lassen sich exportieren und importieren (auch QLC+-Dateien).\n- Mehr Sicherheit: Eingebaute Laser bleiben aus, bis du sie für das einzelne Gerät freigibst. Reset und Automatikprogramme der Lampen werden nie versehentlich ausgelöst.\n- Dein bisheriger Patch wird beim Update automatisch übernommen; die alte Datei bleibt als Sicherung erhalten.\n- Den Kanal „Test“ gibt es jetzt auf allen Macs. Gibt es eine Testversion nur für Windows, bleibt dein Mac ohne Meldung auf seiner Version.",
+  "pub_date": "2026-10-05T18:23:25Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa2RnZExqdENGc01qenZZTFArcFI5dkxNSmRSbncyM2cvL3R6NXBFckhHck0yYmtEazFLTXFqOVhmUVI3MEZWSkE4WXRROXdRTGdvWUNyajU3ZmhrZ2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTQ4NzYyCWZpbGU6U2l0eiBMaWdodF8wLjQuMF94NjRfZGUtREUubXNpCXZlcnNpb246MC40LjAKMG9NUzZzQzh2R2JXNzd5M1U1V1orZ0QxQ0wzcjQ0VUdhMFV6c2pLdDZTTU1EeFdYdUxYYWNYWXJ2elU5S01haEdtZUFEQk1YTW43VnhqYWdkS2FQQVE9PQo=",
-      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.4.0/Sitz-Light-0.4.0-windows-x64.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1hJQUM0VzdVT0FzN28yajZjVGpZemZxK0huQnZUaGVkME1YZFNBbVpOeExHNmgxN0NWSTN4MjQ4ckdhMGVvR0cvaTZNaWNLckZUeU9VUUIvaWovaVFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjI0NTQxCWZpbGU6U2l0eiBMaWdodF8wLjUuMC10ZXN0LjFfeDY0X2RlLURFLm1zaQl2ZXJzaW9uOjAuNS4wLXRlc3QuMQpKaE9DU1czQkdQejBRRXZIMHNpb0ZERk1TRUNkbElVQWw5T3U5cnpUU0JEempvQW5CdmhvRCtFT01NcVV0V2xqdE5sb3lobEtBcThDOUd6eXVLcERCZz09Cg==",
+      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.5.0-test.1/Sitz-Light-0.5.0-test.1-windows-x64.msi"
     }
   }
 }
