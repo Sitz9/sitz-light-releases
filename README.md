@@ -44,9 +44,24 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 - **Ein Audio-Interface für die Musikerkennung:** z. B. ein kleines USB-Interface am Booth- oder Rec-Ausgang des Mixers. Sitz Light erkennt daran Takt, Energie, Build-ups, Drops und Phrasen, auch ohne rekordbox. Den Pegel so einstellen, dass die Pegel-Ampel in Sitz Light grün zeigt. Bei Brummen ein Gerät mit Masse-Trennung (Ground-Lift oder DI-Box) dazwischen.
 - **Ein Art-Net-Node** (Ethernet auf DMX) **oder ein galvanisch getrennter USB-DMX-Adapter** mit eigenem Prozessor (Enttec-DMX-USB-Pro-kompatibel). Der Node ist die robustere Wahl: Rechner und Lichtanlage sind elektrisch getrennt, das verhindert Brummen im Ton und schützt die Geräte. Am Node das Universe so einstellen, wie Sitz Light es unter DMX-Ausgabe anzeigt („am Node: Net · Subnet · Universe“).
 
-**Mit rekordbox:** Für Takt und Phrasen direkt aus rekordbox gibt es das Programm **rkbx_link** (eigenes Projekt, nicht Teil von Sitz Light; für ältere rekordbox-Versionen als Evaluierung, für aktuelle Versionen mit Lizenz): <https://github.com/grufkork/rkbx_link>. Ohne rkbx_link arbeitet Sitz Light mit dem Audio-Interface.
+**Empfohlene Taktquelle ist das Audio-Interface.** Die Anbindung an rekordbox über das Programm **rkbx_link** (eigenes Projekt, nicht Teil von Sitz Light) ist vorerst experimentell und wird später richtig eingebaut: <https://github.com/grufkork/rkbx_link>.
 
 ## Neu
+
+### Version 0.6.0 (10.10.2026)
+
+- Neu: Der **Auto-Director** fährt die Show selbst, passend zu Musikzustand, Energie und Phrasen. Eigener Bereich **Director** mit Übersicht (große BPM, Stimmung, Szene, Musikzustand, Phrase), Shows, Szenen, Regeln, Musik & Analyse und Momenten.
+- Neu: eigene **Shows** und **Szenen** anlegen, kopieren, umbenennen, löschen und als Datei weitergeben; ein **Show-Assistent** stellt eine Show über sechs Fragen zusammen (Anlass, Farbwechsel, Strobe, Bewegung, Farben – auch die des Brautpaars –, Ruhe beim Essen).
+- Neu: **Stimmung** Niedrig, Mittel, Hoch, Eskalation – wie schnell und wild die Show läuft, immer innerhalb der Sicherheitsgrenzen.
+- Rund 75 Lichtbilder von ruhig bis schnell, neue Farbstimmungen (z. B. Champagner, Rosé, Sonnenuntergang, Neon). Moving Heads haben je Liedteil eine eigene, wiedererkennbare Bewegung – immer nur im selbst eingetragenen sicheren Bereich und erst nach Freigabe.
+- **Takt viel stabiler:** Sitz Light rastet auf den Takt ein und hält ihn in ruhigen Stellen ohne Kick, statt auf das doppelte oder halbe Tempo zu springen. Anzeige „sicher / gehalten / unsicher“. Setzt der Beat aus, bleibt das Licht ruhig und steigt auf der nächsten 1 wieder ein.
+- **Phrasen** aus dem Audio stabiler; Phrasen und Musikzustand auch **von Hand** (Knöpfe und Tasten). Sitz Light **lernt aus deinen Eingriffen** und passt die Erkennung schrittweise an deine Musik an; ein **Lernmodus** zeichnet dafür nur Analysewerte auf, keine Musik, nur lokal.
+- **Live aufgeräumt:** großer Simulator, BPM, Director an/aus, Stimmung, Momente, Tempo der Effekte, dazu Master, **Blinder**, **Strobe**, **Laser** und **Blackout**. Strobe nur nach Freigabe und höchstens 3 Blitze pro Sekunde (schneller nur nach eigener Freigabe mit Warnhinweis). Laser nur für im Patch freigegebene Geräte, nach einer Rückfrage, gedrückt halten oder als Umschalter; geht bei Blackout, „Alle auf 0“, Verbindungsabbruch und Beenden sofort aus.
+- **Ruhe-Look:** läuft keine Musik mehr, blendet das Licht sanft in ein ruhiges, warmes Bild und zurück.
+- Pegel-Ampel, ruhigere Analyse-Anzeigen mit Rauschsperre; **Node prüfen** zeigt Name und Universe deines Art-Net-Nodes und erklärt falsche Adressen.
+- **Mac:** Sitz Light fragt jetzt selbst nach dem Mikrofon-Zugriff für den Audio-Eingang (vorher kam auf manchen Macs keine Frage).
+- Empfohlene Taktquelle ist jetzt der Audio-Eingang; die Anbindung an rekordbox über rkbx_link ist vorerst experimentell.
+- Behoben: lange Kanalnamen sprengen die Fader-Karten nicht mehr.
 
 ### Version 0.5.0 (09.10.2026)
 
@@ -72,17 +87,10 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 - Updates werden schneller gemeldet, als kleiner Hinweis statt als Fenster. Installiert wird weiterhin nur nach Bestätigung am Licht-Rechner, nie während einer Show.
 - Neu unter Einstellungen → Über und Leistung: die Neuigkeiten der letzten Versionen.
 
-### Version 0.3.0 (04.10.2026)
-
-- Leertaste = Tap: Das Tempo lässt sich jetzt per Tastatur klopfen, solange Sitz Light vorne ist. „?“ zeigt alle Tastenkürzel, die Belegung lässt sich ändern.
-- Die Leistungsanzeige zeigt beim Lichttakt jetzt getrennt die gleichbleibende Verzögerung und die Schwankung.
-- Gleichmäßigerer Lichttakt auf dem Mac: Das Licht kommt jetzt ohne die bisherige Verzögerung von rund 5 ms und schwankt kaum noch.
-- Neue Taktprüfung unter „Erweitert“ für die Fehlersuche.
-- Auf Macs mit Apple-Prozessor gibt es nur noch stabile Versionen.
-
 ## Als Nächstes geplant
 
 - **Phrasen noch besser erkennen**: mit Aufnahmen aus dem Lernmodus an echten Sets nachschärfen.
+- **rekordbox-Anbindung** über rkbx_link richtig einbauen und testen (bisher experimentell).
 - **Takt noch genauer**: Licht-Verzögerung für alle Taktquellen mit Testblitz einstellen, Art-Net-Nodes im Netz auf Knopfdruck finden.
 - **Bühnenplan**: Lampen auf einem Plan anordnen, Moving Heads auf die Tanzfläche einmessen und Bereiche sperren, in die nie geleuchtet wird.
 - **Verfolgen**: Moving Heads folgen dem Finger auf dem Bühnenplan, zum Beispiel aufs Brautpaar beim Eröffnungstanz.
