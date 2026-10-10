@@ -82,11 +82,12 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 
 ## Als Nächstes geplant
 
-- **Mehr Tastenkürzel**: Strobe, Blinder, Blackout und Stimmungen auf frei wählbaren Tasten (Tap per Leertaste gibt es schon).
+- **Phrasen noch besser erkennen**: mit Aufnahmen aus dem Lernmodus an echten Sets nachschärfen.
 - **Takt noch genauer**: Licht-Verzögerung für alle Taktquellen mit Testblitz einstellen, Art-Net-Nodes im Netz auf Knopfdruck finden.
 - **Bühnenplan**: Lampen auf einem Plan anordnen, Moving Heads auf die Tanzfläche einmessen und Bereiche sperren, in die nie geleuchtet wird.
 - **Verfolgen**: Moving Heads folgen dem Finger auf dem Bühnenplan, zum Beispiel aufs Brautpaar beim Eröffnungstanz.
-- **Auto-Director verfeinern**: mehr Looks, Gobos und Prismen, Vorschau einzelner Looks.
-- **Live eingreifen**: Intensität und Stimmungen per Taste, eigener MIDI-Controller.
+- **Auto-Director verfeinern**: Gobos und Prismen, Akzente als eigene Bausteine.
+- **Live eingreifen**: eigener MIDI-Controller, Farbe und Szene auf Knopfdruck festhalten.
 - **App für iPhone und iPad**: Bedienung als Fernbedienung im lokalen Netz.
-- **Später, optional**: 3D-Vorschau der Bühne, um Looks ohne aufgebaute Lampen zu bauen.
+- **Mehr Ausfallsicherheit**: Programmfenster startet nach einem Fehler neu, ohne dass die Show stoppt.
+- **Später, optional**: 3D-Vorschau der Bühne, um Szenen ohne aufgebaute Lampen zu bauen.
