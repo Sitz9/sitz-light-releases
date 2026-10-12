@@ -48,6 +48,18 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 
 ## Neu
 
+### Version 0.7.0 (12.10.2026)
+
+- **Takt läuft nicht mehr davon:** Das Tempo bleibt immer im eingestellten Bereich und ändert sich nur noch in kleinen Schritten. Rastet es einmal falsch ein, merkt Sitz Light das selbst und fängt sich kontrolliert neu. Abgestimmt an rund 50 echten Songs von House über Schlager bis Hypertechno; doppeltes oder halbes Tempo kommt kaum noch vor, auch nicht in Breakdowns.
+- **Tap hat immer Vorrang:** Ein Tipp setzt sofort die „1“, ab dem zweiten zählt dein Tempo. Die Audio-Analyse richtet sich danach aus und übernimmt erst wieder, wenn sie 8 Takte lang zustimmt, ohne Sprung. Mit **T** gibst du den Takt wieder frei. Die Anzeige zeigt, wer gerade führt und ob der Takt sicher, gehalten oder unsicher ist.
+- **Lichter bleiben nicht mehr stehen:** Kurze Lücken im Beat oder ein unsicherer Takt am Songanfang halten das Licht nicht mehr an; dann gibt es nur keine harten Blitze auf Verdacht.
+- **Fehler merken:** Läuft der Takt einmal daneben, hält Sitz Light kurz die Analysewerte fest (nur Zahlen, keine Musik, nur auf deinem Rechner); per Knopf auch jederzeit von Hand.
+- **Live neu geordnet:** großer Simulator (Klick auf eine Lampe zeigt ihre Regler daneben), großer Auto-Director mit Show, Szene, Stimmung und Phrasen, unten Master, Blinder, Strobe, Laser und Blackout mit ihren Tasten. Am Handy kompakt.
+- **Neuer Reiter „Freigaben“:** alle Sicherheitsfreigaben auf einen Blick (DMX-Ausgabe, Lichtblitze, Mover-Bewegung, sichere Bereiche, Laser) mit Ampel.
+- **Geräte übersichtlicher:** Fader nach Gerät mit Suche und Pegelbalken; in der Gerätedatenbank ein Filter nach **Hersteller**.
+- **Mehr Bewegung:** In den Shows Party und Club bewegen sich die Moving Heads bei Stimmung Hoch und Eskalation größer und schneller, immer innerhalb ihres sicheren Bereichs. **22 neue Szenen** (jetzt 98).
+- **Deine Daten bleiben erhalten:** Einstellungen, eigene Shows, Szenen, Farben und Gelerntes liegen außerhalb des Programms und werden bei Updates übernommen; vor jeder Umstellung entsteht automatisch eine Sicherung.
+
 ### Version 0.6.0 (10.10.2026)
 
 - Neu: Der **Auto-Director** fährt die Show selbst, passend zu Musikzustand, Energie und Phrasen. Eigener Bereich **Director** mit Übersicht (große BPM, Stimmung, Szene, Musikzustand, Phrase), Shows, Szenen, Regeln, Musik & Analyse und Momenten.
@@ -78,18 +90,9 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 - Neu: Kanalübersicht unter Geräte → Adressen. Alle 512 Kanäle auf einen Blick, Geräte per Ziehen an eine neue Adresse verschieben; belegte Kanäle werden nie überschrieben.
 - Der Audio-Eingang öffnet sich nie von selbst beim Start, nur wenn du ihn wählst. Verweigert das System den Zugriff, sagt Sitz Light, wo du ihn erlaubst.
 
-### Version 0.4.0 (04.10.2026)
-
-- Neue, aufgeräumte Oberfläche: oben die Bereiche Live, Geräte, Looks und Einstellungen, am Handy als große Reiter unten. Auf großen Bildschirmen wird jetzt die ganze Breite genutzt.
-- Immer sichtbar oben rechts: Verbindung, Ausgabe AN/AUS, Tempo, „Update verfügbar“ und der Lizenzstatus. Ein Klick führt direkt zur passenden Einstellung.
-- Lizenz: Einmal kaufen, für immer nutzen, alle Funktionen und alle künftigen Updates inklusive, kein Abo, kein Ablaufdatum, keine Konten. Die Lizenz wird offline geprüft und unterbricht nie eine laufende Show.
-- Ohne Lizenz läuft Sitz Light als Demo: alle Funktionen nutzbar, echte DMX-Ausgabe 10 Minuten je Sitzung, danach blendet das Licht sanft aus. Rechtzeitige Hinweise am Rand, nie mitten im Bild.
-- Updates werden schneller gemeldet, als kleiner Hinweis statt als Fenster. Installiert wird weiterhin nur nach Bestätigung am Licht-Rechner, nie während einer Show.
-- Neu unter Einstellungen → Über und Leistung: die Neuigkeiten der letzten Versionen.
-
 ## Als Nächstes geplant
 
-- **Phrasen noch besser erkennen**: mit Aufnahmen aus dem Lernmodus an echten Sets nachschärfen.
+- **Takt und Phrasen noch besser erkennen**: mit dem Prüfstand an echter Musik und Aufnahmen aus dem Lernmodus nachschärfen, besonders den schnellen, richtigen Einstieg in DJ-Intros.
 - **rekordbox-Anbindung** über rkbx_link richtig einbauen und testen (bisher experimentell).
 - **Takt noch genauer**: Licht-Verzögerung für alle Taktquellen mit Testblitz einstellen, Art-Net-Nodes im Netz auf Knopfdruck finden.
 - **Bühnenplan**: Lampen auf einem Plan anordnen, Moving Heads auf die Tanzfläche einmessen und Bereiche sperren, in die nie geleuchtet wird.
@@ -97,5 +100,7 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 - **Auto-Director verfeinern**: Gobos und Prismen, Akzente als eigene Bausteine.
 - **Live eingreifen**: eigener MIDI-Controller, Farbe und Szene auf Knopfdruck festhalten.
 - **App für iPhone und iPad**: Bedienung als Fernbedienung im lokalen Netz.
+- **Hilfe für Einsteiger**: ein Reiter „Hilfe“ mit Schritt-für-Schritt-Anleitung vom ersten Start bis zur ersten Show.
+- **Englisch**: Oberfläche und Hilfe auch auf Englisch.
 - **Mehr Ausfallsicherheit**: Programmfenster startet nach einem Fehler neu, ohne dass die Show stoppt.
 - **Später, optional**: 3D-Vorschau der Bühne, um Szenen ohne aufgebaute Lampen zu bauen.
