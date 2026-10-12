@@ -48,6 +48,15 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 
 ## Neu
 
+### Version 0.7.1 (12.10.2026)
+
+- Behoben: Die Anzeigen blieben nach dem Einschalten des Audio-Eingangs stehen, und ein Browser auf einem anderen Gerät bekam keine Daten. Jetzt laufen alle Oberflächen weiter, auch wenn einmal ein Wert unerwartet ist.
+- Behoben: Beim Wechseln des Audio-Eingangs konnte Sitz Light auf dem Mac abstürzen.
+- Der Audio-Eingang heilt sich selbst: Liefert das Interface kurz nichts oder wird es neu eingesteckt, öffnet Sitz Light den Eingang von selbst neu und zeigt „Audio neu gestartet“.
+- Ein neues Tempo nach einem Songwechsel wird deutlich schneller übernommen (im Mittel nach etwa 10 statt fast 30 Sekunden).
+- Neu: Hinweis „Daten N s alt“, falls die Anzeigen einmal nicht mehr aktuell sind.
+- Neu: Einstellungen → Über und Leistung zeigt die Reaktionszeit und die Auslastung der Audio-Analyse; „Diagnosepaket speichern“ lädt Protokolle und Kennwerte als Datei herunter (keine Musik, keine Lizenz, keine Zugangsdaten).
+
 ### Version 0.7.0 (12.10.2026)
 
 - **Takt läuft nicht mehr davon:** Das Tempo bleibt immer im eingestellten Bereich und ändert sich nur noch in kleinen Schritten. Rastet es einmal falsch ein, merkt Sitz Light das selbst und fängt sich kontrolliert neu. Abgestimmt an rund 50 echten Songs von House über Schlager bis Hypertechno; doppeltes oder halbes Tempo kommt kaum noch vor, auch nicht in Breakdowns.
@@ -74,21 +83,6 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 - **Mac:** Sitz Light fragt jetzt selbst nach dem Mikrofon-Zugriff für den Audio-Eingang (vorher kam auf manchen Macs keine Frage).
 - Empfohlene Taktquelle ist jetzt der Audio-Eingang; die Anbindung an rekordbox über rkbx_link ist vorerst experimentell.
 - Behoben: lange Kanalnamen sprengen die Fader-Karten nicht mehr.
-
-### Version 0.5.0 (09.10.2026)
-
-- Neu: die Gerätedatenbank mit über 2.200 Lampen bekannter Hersteller. Gerät suchen, Modus wählen, in den Patch übernehmen – ohne Kanäle von Hand einzutippen. Die Fader zeigen jetzt, was jeder Kanal tut (Dimmer, Rot, Pan …).
-- Neu: eigene Geräte anlegen, Schritt für Schritt, auch am iPad. Ein ähnliches Gerät lässt sich als Vorlage kopieren; Profile lassen sich exportieren und importieren (auch QLC+-Dateien).
-- Mehr Sicherheit: Eingebaute Laser bleiben aus, bis du sie für das einzelne Gerät freigibst. Reset und Automatikprogramme der Lampen werden nie versehentlich ausgelöst.
-- Dein bisheriger Patch wird beim Update automatisch übernommen; die alte Datei bleibt als Sicherung erhalten.
-- Den Kanal „Test“ gibt es jetzt auf allen Macs. Gibt es eine Testversion nur für Windows, bleibt dein Mac ohne Meldung auf seiner Version.
-- Neu: Testmodus für jede Lampe. Kanal für Kanal durch die Wertebereiche fahren und mit der Anleitung vergleichen; Start und Ende immer mit dunklen Lampen.
-- Neu: Sitz Light hört auf den Takt. Wählbar sind rkbx_link (Takt und Phrasen aus rekordbox), ein Audio-Eingang (z. B. dein Interface am Mixer) oder Tap. Fällt eine Quelle aus, übernimmt automatisch die nächste, und der Takt läuft weiter.
-- Neu: Musikerkennung. Sitz Light zeigt, ob die Musik gerade ruhig ist, groovt, sich aufbaut, droppt oder im Breakdown ist, und warum. Dazu Tief, Mitte, Hoch und der Verlauf der letzten Beats.
-- Neu: Test-Show auf den Beat. Helligkeit pulst, Farben wechseln je Takt, die LED-Bar läuft über ihre Segmente. Master und Blackout sind immer erreichbar; Moving Heads bewegen sich erst, wenn du es ausdrücklich einschaltest.
-- Neu: Unter Looks stellst du ein, wie das Licht reagiert: nur auf den Takt oder je nach Musikzustand, mit eigener Helligkeit, Puls und Farbwechsel für jeden Zustand.
-- Neu: Kanalübersicht unter Geräte → Adressen. Alle 512 Kanäle auf einen Blick, Geräte per Ziehen an eine neue Adresse verschieben; belegte Kanäle werden nie überschrieben.
-- Der Audio-Eingang öffnet sich nie von selbst beim Start, nur wenn du ihn wählst. Verweigert das System den Zugriff, sagt Sitz Light, wo du ihn erlaubst.
 
 ## Als Nächstes geplant
 
