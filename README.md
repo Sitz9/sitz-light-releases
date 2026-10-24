@@ -48,6 +48,11 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 
 ## Neu
 
+### Version 0.8.0 (24.10.2026)
+
+- **Konfiguration sichern und übertragen:** Unter Einstellungen → „Sichern und übertragen“ speichert Sitz Light die ganze Einrichtung in einer Datei (Patch, eigene Geräte, Shows, Szenen, Farbstimmungen, Takt- und Director-Einstellungen, DMX-Ziele, Tastenkürzel, Gelerntes). Auf einem anderen Rechner wieder einlesen, mit Vorschau und Auswahl. Vorher wird der alte Stand automatisch gesichert. Lizenz und Sicherheitsfreigaben gehen bewusst nicht mit.
+- **Vorsorge für die Zukunft:** Sitz Light versteht jetzt eine „Generalfreigabe“. Sollte Sitz Light einmal eingestellt werden, macht diese Datei es für alle dauerhaft frei nutzbar, ohne Lizenz und ohne Internet.
+
 ### Version 0.7.1 (12.10.2026)
 
 - Behoben: Die Anzeigen blieben nach dem Einschalten des Audio-Eingangs stehen, und ein Browser auf einem anderen Gerät bekam keine Daten. Jetzt laufen alle Oberflächen weiter, auch wenn einmal ein Wert unerwartet ist.
@@ -69,32 +74,17 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 - **Mehr Bewegung:** In den Shows Party und Club bewegen sich die Moving Heads bei Stimmung Hoch und Eskalation größer und schneller, immer innerhalb ihres sicheren Bereichs. **22 neue Szenen** (jetzt 98).
 - **Deine Daten bleiben erhalten:** Einstellungen, eigene Shows, Szenen, Farben und Gelerntes liegen außerhalb des Programms und werden bei Updates übernommen; vor jeder Umstellung entsteht automatisch eine Sicherung.
 
-### Version 0.6.0 (10.10.2026)
-
-- Neu: Der **Auto-Director** fährt die Show selbst, passend zu Musikzustand, Energie und Phrasen. Eigener Bereich **Director** mit Übersicht (große BPM, Stimmung, Szene, Musikzustand, Phrase), Shows, Szenen, Regeln, Musik & Analyse und Momenten.
-- Neu: eigene **Shows** und **Szenen** anlegen, kopieren, umbenennen, löschen und als Datei weitergeben; ein **Show-Assistent** stellt eine Show über sechs Fragen zusammen (Anlass, Farbwechsel, Strobe, Bewegung, Farben – auch die des Brautpaars –, Ruhe beim Essen).
-- Neu: **Stimmung** Niedrig, Mittel, Hoch, Eskalation – wie schnell und wild die Show läuft, immer innerhalb der Sicherheitsgrenzen.
-- Rund 75 Lichtbilder von ruhig bis schnell, neue Farbstimmungen (z. B. Champagner, Rosé, Sonnenuntergang, Neon). Moving Heads haben je Liedteil eine eigene, wiedererkennbare Bewegung – immer nur im selbst eingetragenen sicheren Bereich und erst nach Freigabe.
-- **Takt viel stabiler:** Sitz Light rastet auf den Takt ein und hält ihn in ruhigen Stellen ohne Kick, statt auf das doppelte oder halbe Tempo zu springen. Anzeige „sicher / gehalten / unsicher“. Setzt der Beat aus, bleibt das Licht ruhig und steigt auf der nächsten 1 wieder ein.
-- **Phrasen** aus dem Audio stabiler; Phrasen und Musikzustand auch **von Hand** (Knöpfe und Tasten). Sitz Light **lernt aus deinen Eingriffen** und passt die Erkennung schrittweise an deine Musik an; ein **Lernmodus** zeichnet dafür nur Analysewerte auf, keine Musik, nur lokal.
-- **Live aufgeräumt:** großer Simulator, BPM, Director an/aus, Stimmung, Momente, Tempo der Effekte, dazu Master, **Blinder**, **Strobe**, **Laser** und **Blackout**. Strobe nur nach Freigabe und höchstens 3 Blitze pro Sekunde (schneller nur nach eigener Freigabe mit Warnhinweis). Laser nur für im Patch freigegebene Geräte, nach einer Rückfrage, gedrückt halten oder als Umschalter; geht bei Blackout, „Alle auf 0“, Verbindungsabbruch und Beenden sofort aus.
-- **Ruhe-Look:** läuft keine Musik mehr, blendet das Licht sanft in ein ruhiges, warmes Bild und zurück.
-- Pegel-Ampel, ruhigere Analyse-Anzeigen mit Rauschsperre; **Node prüfen** zeigt Name und Universe deines Art-Net-Nodes und erklärt falsche Adressen.
-- **Mac:** Sitz Light fragt jetzt selbst nach dem Mikrofon-Zugriff für den Audio-Eingang (vorher kam auf manchen Macs keine Frage).
-- Empfohlene Taktquelle ist jetzt der Audio-Eingang; die Anbindung an rekordbox über rkbx_link ist vorerst experimentell.
-- Behoben: lange Kanalnamen sprengen die Fader-Karten nicht mehr.
-
 ## Als Nächstes geplant
 
-- **Takt und Phrasen noch besser erkennen**: mit dem Prüfstand an echter Musik und Aufnahmen aus dem Lernmodus nachschärfen, besonders den schnellen, richtigen Einstieg in DJ-Intros.
+- **Liedteile zuverlässig erkennen**: Intro, Groove, Build-up, Drop, Breakdown und Outro deutlich besser aus der Musik erkennen, und spürbar schneller aus deinen eigenen Eingriffen lernen.
+- **Mehr Szenen je Liedteil**: wiedererkennbare Bewegungen und eine Steigerung im Build-up bis zum Drop.
+- **3D-Bühnenplan**: Lampen auf einem Plan platzieren, Moving Heads grafisch einrichten (Zielpunkte, sichere Bereiche, gesperrte Bereiche), mit einfacher 2D-Ansicht als Rückfall.
+- **Mehr Ausfallsicherheit**: Programmfenster startet nach einem Fehler neu, ohne dass die Show stoppt.
+- **Takt noch genauer**: Licht-Verzögerung für alle Taktquellen mit Testblitz einstellen, Art-Net-Nodes im Netz auf Knopfdruck finden, langsamere Lieder sicherer erkennen.
 - **rekordbox-Anbindung** über rkbx_link richtig einbauen und testen (bisher experimentell).
-- **Takt noch genauer**: Licht-Verzögerung für alle Taktquellen mit Testblitz einstellen, Art-Net-Nodes im Netz auf Knopfdruck finden.
-- **Bühnenplan**: Lampen auf einem Plan anordnen, Moving Heads auf die Tanzfläche einmessen und Bereiche sperren, in die nie geleuchtet wird.
 - **Verfolgen**: Moving Heads folgen dem Finger auf dem Bühnenplan, zum Beispiel aufs Brautpaar beim Eröffnungstanz.
 - **Auto-Director verfeinern**: Gobos und Prismen, Akzente als eigene Bausteine.
 - **Live eingreifen**: eigener MIDI-Controller, Farbe und Szene auf Knopfdruck festhalten.
 - **App für iPhone und iPad**: Bedienung als Fernbedienung im lokalen Netz.
 - **Hilfe für Einsteiger**: ein Reiter „Hilfe“ mit Schritt-für-Schritt-Anleitung vom ersten Start bis zur ersten Show.
 - **Englisch**: Oberfläche und Hilfe auch auf Englisch.
-- **Mehr Ausfallsicherheit**: Programmfenster startet nach einem Fehler neu, ohne dass die Show stoppt.
-- **Später, optional**: 3D-Vorschau der Bühne, um Szenen ohne aufgebaute Lampen zu bauen.
