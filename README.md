@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" alt="Sitz Light" width="320"></p>
+
 # Sitz Light – Downloads
 
 Sitz Light ist eine Lichtsoftware für mobile DJs: Ein Auto-Director fährt eine
@@ -76,7 +78,7 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 
 ## Als Nächstes geplant
 
-- **Liedteile zuverlässig erkennen**: Intro, Groove, Build-up, Drop, Breakdown und Outro deutlich besser aus der Musik erkennen, und spürbar schneller aus deinen eigenen Eingriffen lernen.
+- **Liedteile noch genauer**: weniger Drops an falscher Stelle, Intro und Outro besser erkennen.
 - **Mehr Szenen je Liedteil**: wiedererkennbare Bewegungen und eine Steigerung im Build-up bis zum Drop.
 - **3D-Bühnenplan**: Lampen auf einem Plan platzieren, Moving Heads grafisch einrichten (Zielpunkte, sichere Bereiche, gesperrte Bereiche), mit einfacher 2D-Ansicht als Rückfall.
 - **Mehr Ausfallsicherheit**: Programmfenster startet nach einem Fehler neu, ohne dass die Show stoppt.
