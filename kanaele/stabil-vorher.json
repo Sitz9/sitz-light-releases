@@ -1,19 +1,19 @@
 {
-  "version": "0.8.0",
-  "notes": "- **Konfiguration sichern und übertragen:** Unter Einstellungen → „Sichern und übertragen“ speichert Sitz Light die ganze Einrichtung in einer Datei (Patch, eigene Geräte, Shows, Szenen, Farbstimmungen, Takt- und Director-Einstellungen, DMX-Ziele, Tastenkürzel, Gelerntes). Auf einem anderen Rechner wieder einlesen, mit Vorschau und Auswahl. Vorher wird der alte Stand automatisch gesichert. Lizenz und Sicherheitsfreigaben gehen bewusst nicht mit.\n- **Vorsorge für die Zukunft:** Sitz Light versteht jetzt eine „Generalfreigabe“. Sollte Sitz Light einmal eingestellt werden, macht diese Datei es für alle dauerhaft frei nutzbar, ohne Lizenz und ohne Internet.",
-  "pub_date": "2026-10-24T17:03:25Z",
+  "version": "0.9.0",
+  "notes": "- Neues Logo und neues Programmsymbol: das gelbe „S“ als Lichtstrahl, im Dock, in der Taskleiste, im Browser-Tab, auf dem Homescreen von iPad und iPhone, im Startbildschirm und unter „Über und Leistung“.\n- Die Erkennung der Liedteile über den Audio-Eingang ist neu: Build-ups, Breakdowns und Drops werden deutlich öfter und pünktlicher erkannt. Einen Drop erkennt Sitz Light jetzt daran, dass der Bass nach einer Pause zurückkommt; nur dann gibt es den Licht-Treffer. Der Refrain eines Pop-Songs bekommt den hellen Look ohne Blinder.\n- Neu im Musikzustand: „Drop bereit“, wenn der Drop jeden Moment kommen kann.\n- Lernen aus deinen Eingriffen wirkt sofort: Schon eine Markierung von Hand verschiebt die Erkennung ein Stück. Das Gelernte bleibt bei Updates erhalten.",
+  "pub_date": "2026-10-25T10:34:42Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1p1S2lNaDBxT0Y2WDhYYmV0ZjlWaVNBY3ZMZ2k0SzI5ZnBjaTJVWEhSZURiVmJPQjM3eStaYWM1ZXJneUtGdGc5UDl2dk9mZjZSR3NXNVlVUEhpcmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODYxMzQxCWZpbGU6U2l0eiBMaWdodF8wLjguMF94NjRfZGUtREUubXNpCXZlcnNpb246MC44LjAKc1plMDRaL2c5aGRXeXlxMFdUdkpiN3JLOFRRWHJveDBEbVdyTFpXQ2dqbDdySEhwUTQ1YVYvdlJ1WnR3RDdySXBQdUxMUWpkK05DOUZkckdCc1AvQmc9PQo=",
-      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.8.0/Sitz-Light-0.8.0-windows-x64.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1JQWC90T0pqTzU1STFXMHF0Uis0YlppdFdSUUtnODNNQXZGL3FsV3FDU0VGc3pNeXFqVHJ5Y0tzamRtbEsxTmJPWHNsZEUxczE1NVZuR1VaUjBwUXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTI0MzgzCWZpbGU6U2l0eiBMaWdodF8wLjkuMF94NjRfZGUtREUubXNpCXZlcnNpb246MC45LjAKam9xWktaaWROZ2t0SjdHMktWWmxaUUNyTndrRmp4MFFBdXg3UEFNd0J2VmJVWEkxcHk5ZFhqSUoxWi9MMEFkUGJaYmFsNkxGcXV5SjZGSFYxb3RFQkE9PQo=",
+      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.9.0/Sitz-Light-0.9.0-windows-x64.msi"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1MzLzR0a0hBMnoyeXVYSHlpMmIyRFdFTG1yeVFSc29iZHNNQXFkY3pvczBGQ3ovcHRIQkYya2M4TTNZbGNlckFsZURPRklWZGwvV0hwamJVdnVCaXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODYwODI1CWZpbGU6U2l0eiBMaWdodC5hcHAudGFyLmd6CXZlcnNpb246MC44LjAKcXBCUjhTdlBodXBxTHBRcDM1VENqYnpzVXF3alVmaFVIM3hHbm9xaXBkUFdjTWdxbkY3eHVrZVR5eURwYm01cUZnSC9vYzd4SmxNU1RVMUVQOGpvQnc9PQo=",
-      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.8.0/Sitz-Light-0.8.0-macos-apple-silicon.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa2VxNE0xQWVqdTh2Qmk3Z0R4MmlzQ3E2aWw2VFkweVB6K3ZSR0h0NzdHNUdCVGpIM3cvdms2cytaUlFRTXVFdmhkdHo3YlUzemErczJ5OWNRWHB4cEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTIzODUyCWZpbGU6U2l0eiBMaWdodC5hcHAudGFyLmd6CXZlcnNpb246MC45LjAKdUpvMlc4ZkdrcS9JRzVvdDMzK0VMU0s4QmRIWUpCZFgvK0dWbllrOTVuVWN5bjViN1JTT0tUWFgvMGM2N043Z3g0WVQwY3hUTU9kY0M4b1JZRnVYRFE9PQo=",
+      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.9.0/Sitz-Light-0.9.0-macos-apple-silicon.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa2VTaFhzczIxWTlqeWVURHFjaFFBQjFPOVhxNkFob1pNdk83ZFdiY3N1K2djNDE5MVZVTEswaEZTWkxjT0JSV3dad0UxYzB1OXlqekt6d0NpWG1zRkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODYxMTQwCWZpbGU6U2l0eiBMaWdodC5hcHAudGFyLmd6CXZlcnNpb246MC44LjAKOHNZK0Iyd01tb3ZLT0hzTjR3NWxGaDlUd3E0clNKRUtNRDVRYzRzV1pqL1dqMHdkTmdQN3ZWU3h1eUVnZTNDN3Z0NUh1Sm41RVBoZXlDQTRhT0ZWQlE9PQo=",
-      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.8.0/Sitz-Light-0.8.0-macos-intel.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNlRxS3dsL2lLa1g0RjJQdjM4aGdmK1N6bThHQ0c1aW9kWHVOc243SVZFdU8zSEdqL0N3R0dNam11Y3RYNVVpYUxDQ2crUHhweER2cWdoVzZYRCtYWC9pRnpweXRwZmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTI0NDI1CWZpbGU6U2l0eiBMaWdodC5hcHAudGFyLmd6CXZlcnNpb246MC45LjAKNXQvMElOU2tGUkF2endycjlqZXlTWjhRK3JjaGVCc09Ea2hMaG9nd01YeUM5aDJrOXBZa2NiZEZVRWxwdFNIemhKbVJBQ2pYYjIyNFpjaUhIak53QlE9PQo=",
+      "url": "https://github.com/Sitz9/sitz-light-releases/releases/download/v0.9.0/Sitz-Light-0.9.0-macos-intel.app.tar.gz"
     }
   }
 }

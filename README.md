@@ -50,39 +50,41 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 
 ## Neu
 
+### Version 0.10.0 (26.10.2026)
+
+- Das Tempo springt bei langsamen Songs nicht mehr auf ein verwandtes Tempo (zum Beispiel von 90 auf 145 BPM). Im Zweifel bleibt das bisherige Tempo.
+- Neuer Schalter **Pulsieren** (aus, dezent, normal) und Modus **Mover-Show**: Pars und Bars leuchten ruhig im Hintergrund, die Moving Heads machen die Show.
+- Jede Show hat eine **Drop-Empfindlichkeit**: Bei „Hochzeit klassisch“ gibt es den Licht-Treffer nur bei klaren Drops und sanfter, bei „Club“ auch bei schwächeren.
+- Weniger Licht-Treffer an falscher Stelle, vor allem in Strophen von Pop- und Hip-Hop-Songs.
+- Kommt ein Liedteil wieder (zum Beispiel der zweite Refrain), kommen auch dieselben Szenen wieder. Im Build-up steigert sich das Licht bis zum Drop.
+- „Hochzeit klassisch“ darf bis 100 % hell werden.
+- **Licht-Offset mit Testblitz**: Ein kurzer weißer Blitz auf jedem Beat hilft, das Licht genau auf die Kick einzustellen.
+- Keine automatischen Lichtblitze mehr: Blitze gibt es nur noch, solange du den Strobe-Knopf drückst. Auch vor dem Drop blitzt nichts mehr von allein.
+- Im Modus „Gemischt“ bleibt deine Phrase von Hand mindestens 8 Takte und danach bis zur nächsten erkannten Phrase. Unter den Knöpfen steht, dass gerade deine Wahl gilt.
+- Die Liedteile wechseln deutlich ruhiger: Ein neuer Teil gilt erst, wenn er sich bestätigt hat, und bleibt dann eine Weile. Solange es unklar ist, bleibt das Licht, wie es ist. Build-ups werden öfter erkannt.
+- **Live neu**: der Director groß in der Mitte mit Liedteil, Szene, Phrase, „Drop bereit“ und „Deine Wahl“ auf einen Blick; links der Simulator, rechts Takt und Musik. Am Handy lassen sich Simulator und Musik aufklappen.
+- Ruhigere Oberfläche: keine umbrechenden Knöpfe und Zahlen mehr, lange Namen enden mit „…“ und zeigen sich beim Antippen ganz. Nichts ragt mehr aus den Karten.
+- Im Programmfenster lassen sich alle Dateien wieder speichern (Diagnosepaket, Konfiguration, Gelerntes, Aufnahmen, Exporte). Sie landen im Ordner „Downloads“, ein Hinweis zeigt sie im Ordner.
+- Gelerntes lässt sich jetzt auch **importieren**, zum Beispiel vom Laptop auf den Licht-Rechner. Doppeltes zählt nur einmal.
+
+### Version 0.9.0 (25.10.2026)
+
+- Neues Logo und neues Programmsymbol: das gelbe „S“ als Lichtstrahl, im Dock, in der Taskleiste, im Browser-Tab, auf dem Homescreen von iPad und iPhone, im Startbildschirm und unter „Über und Leistung“.
+- Die Erkennung der Liedteile über den Audio-Eingang ist neu: Build-ups, Breakdowns und Drops werden deutlich öfter und pünktlicher erkannt. Einen Drop erkennt Sitz Light jetzt daran, dass der Bass nach einer Pause zurückkommt; nur dann gibt es den Licht-Treffer. Der Refrain eines Pop-Songs bekommt den hellen Look ohne Blinder.
+- Neu im Musikzustand: „Drop bereit“, wenn der Drop jeden Moment kommen kann.
+- Lernen aus deinen Eingriffen wirkt sofort: Schon eine Markierung von Hand verschiebt die Erkennung ein Stück. Das Gelernte bleibt bei Updates erhalten.
+
 ### Version 0.8.0 (24.10.2026)
 
 - **Konfiguration sichern und übertragen:** Unter Einstellungen → „Sichern und übertragen“ speichert Sitz Light die ganze Einrichtung in einer Datei (Patch, eigene Geräte, Shows, Szenen, Farbstimmungen, Takt- und Director-Einstellungen, DMX-Ziele, Tastenkürzel, Gelerntes). Auf einem anderen Rechner wieder einlesen, mit Vorschau und Auswahl. Vorher wird der alte Stand automatisch gesichert. Lizenz und Sicherheitsfreigaben gehen bewusst nicht mit.
 - **Vorsorge für die Zukunft:** Sitz Light versteht jetzt eine „Generalfreigabe“. Sollte Sitz Light einmal eingestellt werden, macht diese Datei es für alle dauerhaft frei nutzbar, ohne Lizenz und ohne Internet.
 
-### Version 0.7.1 (12.10.2026)
-
-- Behoben: Die Anzeigen blieben nach dem Einschalten des Audio-Eingangs stehen, und ein Browser auf einem anderen Gerät bekam keine Daten. Jetzt laufen alle Oberflächen weiter, auch wenn einmal ein Wert unerwartet ist.
-- Behoben: Beim Wechseln des Audio-Eingangs konnte Sitz Light auf dem Mac abstürzen.
-- Der Audio-Eingang heilt sich selbst: Liefert das Interface kurz nichts oder wird es neu eingesteckt, öffnet Sitz Light den Eingang von selbst neu und zeigt „Audio neu gestartet“.
-- Ein neues Tempo nach einem Songwechsel wird deutlich schneller übernommen (im Mittel nach etwa 10 statt fast 30 Sekunden).
-- Neu: Hinweis „Daten N s alt“, falls die Anzeigen einmal nicht mehr aktuell sind.
-- Neu: Einstellungen → Über und Leistung zeigt die Reaktionszeit und die Auslastung der Audio-Analyse; „Diagnosepaket speichern“ lädt Protokolle und Kennwerte als Datei herunter (keine Musik, keine Lizenz, keine Zugangsdaten).
-
-### Version 0.7.0 (12.10.2026)
-
-- **Takt läuft nicht mehr davon:** Das Tempo bleibt immer im eingestellten Bereich und ändert sich nur noch in kleinen Schritten. Rastet es einmal falsch ein, merkt Sitz Light das selbst und fängt sich kontrolliert neu. Abgestimmt an rund 50 echten Songs von House über Schlager bis Hypertechno; doppeltes oder halbes Tempo kommt kaum noch vor, auch nicht in Breakdowns.
-- **Tap hat immer Vorrang:** Ein Tipp setzt sofort die „1“, ab dem zweiten zählt dein Tempo. Die Audio-Analyse richtet sich danach aus und übernimmt erst wieder, wenn sie 8 Takte lang zustimmt, ohne Sprung. Mit **T** gibst du den Takt wieder frei. Die Anzeige zeigt, wer gerade führt und ob der Takt sicher, gehalten oder unsicher ist.
-- **Lichter bleiben nicht mehr stehen:** Kurze Lücken im Beat oder ein unsicherer Takt am Songanfang halten das Licht nicht mehr an; dann gibt es nur keine harten Blitze auf Verdacht.
-- **Fehler merken:** Läuft der Takt einmal daneben, hält Sitz Light kurz die Analysewerte fest (nur Zahlen, keine Musik, nur auf deinem Rechner); per Knopf auch jederzeit von Hand.
-- **Live neu geordnet:** großer Simulator (Klick auf eine Lampe zeigt ihre Regler daneben), großer Auto-Director mit Show, Szene, Stimmung und Phrasen, unten Master, Blinder, Strobe, Laser und Blackout mit ihren Tasten. Am Handy kompakt.
-- **Neuer Reiter „Freigaben“:** alle Sicherheitsfreigaben auf einen Blick (DMX-Ausgabe, Lichtblitze, Mover-Bewegung, sichere Bereiche, Laser) mit Ampel.
-- **Geräte übersichtlicher:** Fader nach Gerät mit Suche und Pegelbalken; in der Gerätedatenbank ein Filter nach **Hersteller**.
-- **Mehr Bewegung:** In den Shows Party und Club bewegen sich die Moving Heads bei Stimmung Hoch und Eskalation größer und schneller, immer innerhalb ihres sicheren Bereichs. **22 neue Szenen** (jetzt 98).
-- **Deine Daten bleiben erhalten:** Einstellungen, eigene Shows, Szenen, Farben und Gelerntes liegen außerhalb des Programms und werden bei Updates übernommen; vor jeder Umstellung entsteht automatisch eine Sicherung.
-
 ## Als Nächstes geplant
 
 - **Liedteile noch genauer**: weniger Drops an falscher Stelle, Intro und Outro besser erkennen.
-- **Mehr Szenen je Liedteil**: wiedererkennbare Bewegungen und eine Steigerung im Build-up bis zum Drop.
 - **3D-Bühnenplan**: Lampen auf einem Plan platzieren, Moving Heads grafisch einrichten (Zielpunkte, sichere Bereiche, gesperrte Bereiche), mit einfacher 2D-Ansicht als Rückfall.
 - **Mehr Ausfallsicherheit**: Programmfenster startet nach einem Fehler neu, ohne dass die Show stoppt.
-- **Takt noch genauer**: Licht-Verzögerung für alle Taktquellen mit Testblitz einstellen, Art-Net-Nodes im Netz auf Knopfdruck finden, langsamere Lieder sicherer erkennen.
+- **Takt noch genauer**: Art-Net-Nodes im Netz auf Knopfdruck finden, langsamere Lieder sicherer erkennen.
 - **rekordbox-Anbindung** über rkbx_link richtig einbauen und testen (bisher experimentell).
 - **Verfolgen**: Moving Heads folgen dem Finger auf dem Bühnenplan, zum Beispiel aufs Brautpaar beim Eröffnungstanz.
 - **Auto-Director verfeinern**: Gobos und Prismen, Akzente als eigene Bausteine.
