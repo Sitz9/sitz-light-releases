@@ -50,6 +50,20 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 
 ## Neu
 
+### Version 0.11.0 (31.10.2026)
+
+- **Genre**: Wähle im Live-Tab das Genre, das du gerade spielst (House, Dance & Pop, Party-Action, Classics, Hip-Hop / R&B, Latin, Schlager, Chill / Lounge, Hochzeit: Dinner / Sekt, Hochzeit: Eröffnungstanz). Das Licht übernimmt den Charakter der Musik: wie viel sich bewegt, wie oft Szenen wechseln, ob es pulsiert. Der Wechsel kommt sanft zur nächsten Phrase. Tasten Umschalt+1 bis Umschalt+9. Eigene Genres lassen sich unter Director → Genres anlegen.
+- Die Show bleibt der Rahmen: Ein Genre macht das Licht nie heller, schneller oder wilder, als die Show erlaubt. Lichtblitze gibt es weiterhin nur per Strobe-Knopf.
+- **Mover-Show**: Die Moving Heads rocken jetzt richtig ab, mit großen, abwechslungsreichen Bewegungen im Takt und einer neuen Bewegung je Phrase, immer im sicheren Bereich.
+- **Wenig Energie = ruhiges Licht**: Wird die Musik sehr ruhig, blinkt nichts mehr, das Licht wechselt höchstens langsam die Farbe.
+- **Farben im Live-Tab** wählbar, kleine „i“-Erklärungen überall im Director, ruhigere Gliederung, nichts bricht mehr um.
+- **Lauflichter** lassen sich abschalten oder mit Start- und Endgerät festlegen.
+- **Szenen-Vorschau**: Beim Zusammenstellen einer Show zeigt das Licht jede Szene kurz im Takt, auch ohne Musik.
+- **20 neue Szenen**, vor allem ruhige und fließende für Build-up und Drop, dazu „Frequenz-Höhen“: Lampen unten folgen dem Bass, oben den Höhen (Höhe je Lampe im Patch einstellbar).
+- **Akzentfarbe** jetzt Gelb wie das Logo, unter Einstellungen → Bedienung frei wählbar.
+- Die Zurück-Taste der Maus (und Zurück am iPad) springt nur noch zwischen den Seiten und verlässt Sitz Light nie.
+- In der Demo steht, wo es die Lizenz gibt: djsitz.com.
+
 ### Version 0.10.0 (26.10.2026)
 
 - Das Tempo springt bei langsamen Songs nicht mehr auf ein verwandtes Tempo (zum Beispiel von 90 auf 145 BPM). Im Zweifel bleibt das bisherige Tempo.
@@ -74,16 +88,12 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 - Neu im Musikzustand: „Drop bereit“, wenn der Drop jeden Moment kommen kann.
 - Lernen aus deinen Eingriffen wirkt sofort: Schon eine Markierung von Hand verschiebt die Erkennung ein Stück. Das Gelernte bleibt bei Updates erhalten.
 
-### Version 0.8.0 (24.10.2026)
-
-- **Konfiguration sichern und übertragen:** Unter Einstellungen → „Sichern und übertragen“ speichert Sitz Light die ganze Einrichtung in einer Datei (Patch, eigene Geräte, Shows, Szenen, Farbstimmungen, Takt- und Director-Einstellungen, DMX-Ziele, Tastenkürzel, Gelerntes). Auf einem anderen Rechner wieder einlesen, mit Vorschau und Auswahl. Vorher wird der alte Stand automatisch gesichert. Lizenz und Sicherheitsfreigaben gehen bewusst nicht mit.
-- **Vorsorge für die Zukunft:** Sitz Light versteht jetzt eine „Generalfreigabe“. Sollte Sitz Light einmal eingestellt werden, macht diese Datei es für alle dauerhaft frei nutzbar, ohne Lizenz und ohne Internet.
-
 ## Als Nächstes geplant
 
 - **Liedteile noch genauer**: weniger Drops an falscher Stelle, Intro und Outro besser erkennen.
+- **Lernen überarbeiten**: Korrekturen von Hand wirken noch gezielter auf die Erkennung der Liedteile.
 - **3D-Bühnenplan**: Lampen auf einem Plan platzieren, Moving Heads grafisch einrichten (Zielpunkte, sichere Bereiche, gesperrte Bereiche), mit einfacher 2D-Ansicht als Rückfall.
-- **Mehr Ausfallsicherheit**: Programmfenster startet nach einem Fehler neu, ohne dass die Show stoppt.
+- **Mehr Ausfallsicherheit**: Programmfenster startet nach einem Fehler neu, ohne dass die Show stoppt; Fernbedienungen nur nach Koppeln per PIN oder QR-Code.
 - **Takt noch genauer**: Art-Net-Nodes im Netz auf Knopfdruck finden, langsamere Lieder sicherer erkennen.
 - **rekordbox-Anbindung** über rkbx_link richtig einbauen und testen (bisher experimentell).
 - **Verfolgen**: Moving Heads folgen dem Finger auf dem Bühnenplan, zum Beispiel aufs Brautpaar beim Eröffnungstanz.
