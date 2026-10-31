@@ -50,6 +50,16 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 
 ## Neu
 
+### Version 0.12.0 (31.10.2026)
+
+- **iPad und Handy koppeln**: Nur gekoppelte Geräte dürfen Sitz Light bedienen. Am Licht-Rechner unter Einstellungen → Fernbedienung „Neues Gerät koppeln“ wählen, dann am iPad die PIN eingeben oder den QR-Code abfotografieren. Für jedes Gerät wählst du „Bedienen“ (nur Live) oder „Einrichten“ (alles). Nach dem Update müssen iPad und Handy einmal neu gekoppelt werden.
+- **Live-Tab nach deinen Wünschen**: Mit „Anordnen“ ordnest du die Bausteine (Director, Simulator, Takt, Genre, Stimmung, Phrase, Pulsieren, Farbstimmung, Momente, Launchpad, Mover) frei an, getrennt für Rechner, iPad und Handy. Genre, Stimmung, Phrase, Pulsieren und Farbstimmung gibt es als große Knöpfe oder als Auswahlliste. Blackout bleibt immer unten in der Leiste.
+- **Launchpad**: große Felder für Blinder, Strobe und Laser zum Halten oder Einrasten. Eingerastet laufen Blinder und Strobe höchstens die eingestellte Zeit (Standard 10 s, höchstens 30 s) mit Countdown. Dazu Farbknöpfe (Blau, Lila, Pink, Grün, Gelb, Rot, Weiß, frei einstellbar), die alle Lampen weich umfärben.
+- **Mover von Hand**: Moving Heads mit dem Finger oder den Pfeiltasten ausrichten, immer im sicheren Bereich, Positionen speichern, mit einem Knopf zurück an den Director.
+- **Hintergrund**: Grau, Schwarz, Carbon oder ein eigenes Foto (wird automatisch abgedunkelt, damit alles lesbar bleibt).
+- **Lernen aus Eingriffen** ist jetzt ein Schalter und ab Werk aus.
+- Auswahllisten im Director lesbar, djsitz.com in der Kopfzeile, sicherer Start, wenn Sitz Light schon läuft.
+
 ### Version 0.11.1 (31.10.2026)
 
 - **Ruhigerer Build-up**: Vor dem Drop baut das Licht die Spannung jetzt über Helligkeit, kräftiger werdende Farben und schneller werdende Moving Heads auf, statt über schnelles Geflacker. Eine Szene steigert sich bis zum Drop, statt alle paar Takte zu wechseln. Lichtblitze gibst du weiterhin selbst per Strobe-Knopf dazu.
@@ -70,34 +80,17 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 - Die Zurück-Taste der Maus (und Zurück am iPad) springt nur noch zwischen den Seiten und verlässt Sitz Light nie.
 - In der Demo steht, wo es die Lizenz gibt: djsitz.com.
 
-### Version 0.10.0 (26.10.2026)
-
-- Das Tempo springt bei langsamen Songs nicht mehr auf ein verwandtes Tempo (zum Beispiel von 90 auf 145 BPM). Im Zweifel bleibt das bisherige Tempo.
-- Neuer Schalter **Pulsieren** (aus, dezent, normal) und Modus **Mover-Show**: Pars und Bars leuchten ruhig im Hintergrund, die Moving Heads machen die Show.
-- Jede Show hat eine **Drop-Empfindlichkeit**: Bei „Hochzeit klassisch“ gibt es den Licht-Treffer nur bei klaren Drops und sanfter, bei „Club“ auch bei schwächeren.
-- Weniger Licht-Treffer an falscher Stelle, vor allem in Strophen von Pop- und Hip-Hop-Songs.
-- Kommt ein Liedteil wieder (zum Beispiel der zweite Refrain), kommen auch dieselben Szenen wieder. Im Build-up steigert sich das Licht bis zum Drop.
-- „Hochzeit klassisch“ darf bis 100 % hell werden.
-- **Licht-Offset mit Testblitz**: Ein kurzer weißer Blitz auf jedem Beat hilft, das Licht genau auf die Kick einzustellen.
-- Keine automatischen Lichtblitze mehr: Blitze gibt es nur noch, solange du den Strobe-Knopf drückst. Auch vor dem Drop blitzt nichts mehr von allein.
-- Im Modus „Gemischt“ bleibt deine Phrase von Hand mindestens 8 Takte und danach bis zur nächsten erkannten Phrase. Unter den Knöpfen steht, dass gerade deine Wahl gilt.
-- Die Liedteile wechseln deutlich ruhiger: Ein neuer Teil gilt erst, wenn er sich bestätigt hat, und bleibt dann eine Weile. Solange es unklar ist, bleibt das Licht, wie es ist. Build-ups werden öfter erkannt.
-- **Live neu**: der Director groß in der Mitte mit Liedteil, Szene, Phrase, „Drop bereit“ und „Deine Wahl“ auf einen Blick; links der Simulator, rechts Takt und Musik. Am Handy lassen sich Simulator und Musik aufklappen.
-- Ruhigere Oberfläche: keine umbrechenden Knöpfe und Zahlen mehr, lange Namen enden mit „…“ und zeigen sich beim Antippen ganz. Nichts ragt mehr aus den Karten.
-- Im Programmfenster lassen sich alle Dateien wieder speichern (Diagnosepaket, Konfiguration, Gelerntes, Aufnahmen, Exporte). Sie landen im Ordner „Downloads“, ein Hinweis zeigt sie im Ordner.
-- Gelerntes lässt sich jetzt auch **importieren**, zum Beispiel vom Laptop auf den Licht-Rechner. Doppeltes zählt nur einmal.
-
 ## Als Nächstes geplant
 
 - **Liedteile noch genauer**: weniger Drops an falscher Stelle, Intro und Outro besser erkennen.
 - **Lernen überarbeiten**: Korrekturen von Hand wirken noch gezielter auf die Erkennung der Liedteile.
 - **3D-Bühnenplan**: Lampen auf einem Plan platzieren, Moving Heads grafisch einrichten (Zielpunkte, sichere Bereiche, gesperrte Bereiche), mit einfacher 2D-Ansicht als Rückfall.
-- **Mehr Ausfallsicherheit**: Programmfenster startet nach einem Fehler neu, ohne dass die Show stoppt; Fernbedienungen nur nach Koppeln per PIN oder QR-Code.
+- **Mehr Ausfallsicherheit**: Programmfenster startet nach einem Fehler neu, ohne dass die Show stoppt; Sicherung der Show vor dem Gig.
 - **Takt noch genauer**: Art-Net-Nodes im Netz auf Knopfdruck finden, langsamere Lieder sicherer erkennen.
 - **rekordbox-Anbindung** über rkbx_link richtig einbauen und testen (bisher experimentell).
 - **Verfolgen**: Moving Heads folgen dem Finger auf dem Bühnenplan, zum Beispiel aufs Brautpaar beim Eröffnungstanz.
 - **Auto-Director verfeinern**: Gobos und Prismen, Akzente als eigene Bausteine.
-- **Live eingreifen**: eigener MIDI-Controller, Farbe und Szene auf Knopfdruck festhalten.
+- **Live eingreifen**: eigener MIDI-Controller.
 - **App für iPhone und iPad**: Bedienung als Fernbedienung im lokalen Netz.
 - **Hilfe für Einsteiger**: ein Reiter „Hilfe“ mit Schritt-für-Schritt-Anleitung vom ersten Start bis zur ersten Show.
 - **Englisch**: Oberfläche und Hilfe auch auf Englisch.
