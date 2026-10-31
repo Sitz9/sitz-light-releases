@@ -50,6 +50,12 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 
 ## Neu
 
+### Version 0.11.1 (31.10.2026)
+
+- **Ruhigerer Build-up**: Vor dem Drop baut das Licht die Spannung jetzt über Helligkeit, kräftiger werdende Farben und schneller werdende Moving Heads auf, statt über schnelles Geflacker. Eine Szene steigert sich bis zum Drop, statt alle paar Takte zu wechseln. Lichtblitze gibst du weiterhin selbst per Strobe-Knopf dazu.
+- **Segmente zusammenfassen**: Bei Geräten mit mehreren Segmenten (z. B. LED-Bars) stellst du unter Geräte → Patch ein, wie viele Segmente zusammen leuchten. Standard: höchstens vier Blöcke je Gerät, das wirkt ruhiger.
+- **Szenen-Vorschau**: Läuft die Show, zeigt das Licht eine neu hinzugefügte Szene nicht mehr von selbst. Mit ▶ fragt Sitz Light vorher, ob die laufende Show kurz unterbrochen werden soll.
+
 ### Version 0.11.0 (31.10.2026)
 
 - **Genre**: Wähle im Live-Tab das Genre, das du gerade spielst (House, Dance & Pop, Party-Action, Classics, Hip-Hop / R&B, Latin, Schlager, Chill / Lounge, Hochzeit: Dinner / Sekt, Hochzeit: Eröffnungstanz). Das Licht übernimmt den Charakter der Musik: wie viel sich bewegt, wie oft Szenen wechseln, ob es pulsiert. Der Wechsel kommt sanft zur nächsten Phrase. Tasten Umschalt+1 bis Umschalt+9. Eigene Genres lassen sich unter Director → Genres anlegen.
@@ -80,13 +86,6 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 - Ruhigere Oberfläche: keine umbrechenden Knöpfe und Zahlen mehr, lange Namen enden mit „…“ und zeigen sich beim Antippen ganz. Nichts ragt mehr aus den Karten.
 - Im Programmfenster lassen sich alle Dateien wieder speichern (Diagnosepaket, Konfiguration, Gelerntes, Aufnahmen, Exporte). Sie landen im Ordner „Downloads“, ein Hinweis zeigt sie im Ordner.
 - Gelerntes lässt sich jetzt auch **importieren**, zum Beispiel vom Laptop auf den Licht-Rechner. Doppeltes zählt nur einmal.
-
-### Version 0.9.0 (25.10.2026)
-
-- Neues Logo und neues Programmsymbol: das gelbe „S“ als Lichtstrahl, im Dock, in der Taskleiste, im Browser-Tab, auf dem Homescreen von iPad und iPhone, im Startbildschirm und unter „Über und Leistung“.
-- Die Erkennung der Liedteile über den Audio-Eingang ist neu: Build-ups, Breakdowns und Drops werden deutlich öfter und pünktlicher erkannt. Einen Drop erkennt Sitz Light jetzt daran, dass der Bass nach einer Pause zurückkommt; nur dann gibt es den Licht-Treffer. Der Refrain eines Pop-Songs bekommt den hellen Look ohne Blinder.
-- Neu im Musikzustand: „Drop bereit“, wenn der Drop jeden Moment kommen kann.
-- Lernen aus deinen Eingriffen wirkt sofort: Schon eine Markierung von Hand verschiebt die Erkennung ein Stück. Das Gelernte bleibt bei Updates erhalten.
 
 ## Als Nächstes geplant
 
