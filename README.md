@@ -50,14 +50,17 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 
 ## Neu
 
-### Version 0.12.0 (31.10.2026)
+### Version 0.12.0 (01.11.2026)
 
 - **iPad und Handy koppeln**: Nur gekoppelte Geräte dürfen Sitz Light bedienen. Am Licht-Rechner unter Einstellungen → Fernbedienung „Neues Gerät koppeln“ wählen, dann am iPad die PIN eingeben oder den QR-Code abfotografieren. Für jedes Gerät wählst du „Bedienen“ (nur Live) oder „Einrichten“ (alles). Nach dem Update müssen iPad und Handy einmal neu gekoppelt werden.
-- **Live-Tab nach deinen Wünschen**: Mit „Anordnen“ ordnest du die Bausteine (Director, Simulator, Takt, Genre, Stimmung, Phrase, Pulsieren, Farbstimmung, Momente, Launchpad, Mover) frei an, getrennt für Rechner, iPad und Handy. Genre, Stimmung, Phrase, Pulsieren und Farbstimmung gibt es als große Knöpfe oder als Auswahlliste. Blackout bleibt immer unten in der Leiste.
-- **Launchpad**: große Felder für Blinder, Strobe und Laser zum Halten oder Einrasten. Eingerastet laufen Blinder und Strobe höchstens die eingestellte Zeit (Standard 10 s, höchstens 30 s) mit Countdown. Dazu Farbknöpfe (Blau, Lila, Pink, Grün, Gelb, Rot, Weiß, frei einstellbar), die alle Lampen weich umfärben.
+- **Live und Launchpad nach deinen Wünschen**: Beide nutzen den ganzen Bildschirm, ohne Scrollen. Mit „Anordnen“ (oben) verschiebst du Bausteine frei und änderst ihre Größe, mit oder ohne Raster, getrennt für Rechner, iPad quer, iPad hoch und Handy. Nichts überlappt.
+- **Launchpad als eigener Reiter**: Jede Funktion lässt sich als Knopf ablegen (Blinder, Strobe, Laser, Farben, Shows, Genres, Phrasen, Szenen, Momente, Master, Mover …), mit eigenem Namen und eigener Farbe. Der Name darf bis drei Zeilen lang sein, die Schrift passt sich an. Blinder, Strobe und Laser tragen immer ein Warnzeichen. Eingerastet laufen Blinder und Strobe höchstens die eingestellte Zeit (Standard 10 s, höchstens 30 s) mit Countdown.
+- **Fußzeile auf allen Reitern**: flach, über die ganze Breite, mit Master, Blinder, Strobe, Laser und Blackout; Reihenfolge und Breite wählbar, Tap und BPM auf Wunsch. **Blackout ist immer da** und lässt sich nicht entfernen.
+- **Aufgeräumter Auto-Director**: kompakte Auswahllisten für Show, Genre, Farben, Phrase, Pulsieren, Mover-Show und Tempo, darüber eine schmale Statuszeile.
+- **Neues Aussehen**: ruhige Flächen statt Kästen, eigene große Auswahllisten zum Antippen, leuchtende Lampen im Simulator. Die Einstellungen sind in fünf Gruppen sortiert: Anzeige, Bedienung, Audio & Takt, Ausgabe, System.
 - **Mover von Hand**: Moving Heads mit dem Finger oder den Pfeiltasten ausrichten, immer im sicheren Bereich, Positionen speichern, mit einem Knopf zurück an den Director.
 - **Hintergrund**: Grau, Schwarz, Carbon oder ein eigenes Foto (wird automatisch abgedunkelt, damit alles lesbar bleibt).
-- **Lernen aus Eingriffen** ist jetzt ein Schalter und ab Werk aus.
+- **Lernen aus Eingriffen** ist jetzt ein Schalter und ab Werk aus. Ausgeschaltet gelten die Werkswerte; das Gelernte bleibt gespeichert und wirkt wieder, sobald du einschaltest.
 - Auswahllisten im Director lesbar, djsitz.com in der Kopfzeile, sicherer Start, wenn Sitz Light schon läuft.
 
 ### Version 0.11.1 (31.10.2026)
@@ -82,15 +85,15 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 
 ## Als Nächstes geplant
 
+- **Mehr Ausfallsicherheit**: Programmfenster startet nach einem Fehler neu, ohne dass die Show stoppt; Sicherung der Show vor dem Gig.
+- **Hilfe für Einsteiger**: ein Reiter „Hilfe“ mit Schritt-für-Schritt-Anleitung vom ersten Start bis zur ersten Show.
 - **Liedteile noch genauer**: weniger Drops an falscher Stelle, Intro und Outro besser erkennen.
 - **Lernen überarbeiten**: Korrekturen von Hand wirken noch gezielter auf die Erkennung der Liedteile.
 - **3D-Bühnenplan**: Lampen auf einem Plan platzieren, Moving Heads grafisch einrichten (Zielpunkte, sichere Bereiche, gesperrte Bereiche), mit einfacher 2D-Ansicht als Rückfall.
-- **Mehr Ausfallsicherheit**: Programmfenster startet nach einem Fehler neu, ohne dass die Show stoppt; Sicherung der Show vor dem Gig.
 - **Takt noch genauer**: Art-Net-Nodes im Netz auf Knopfdruck finden, langsamere Lieder sicherer erkennen.
 - **rekordbox-Anbindung** über rkbx_link richtig einbauen und testen (bisher experimentell).
 - **Verfolgen**: Moving Heads folgen dem Finger auf dem Bühnenplan, zum Beispiel aufs Brautpaar beim Eröffnungstanz.
 - **Auto-Director verfeinern**: Gobos und Prismen, Akzente als eigene Bausteine.
 - **Live eingreifen**: eigener MIDI-Controller.
 - **App für iPhone und iPad**: Bedienung als Fernbedienung im lokalen Netz.
-- **Hilfe für Einsteiger**: ein Reiter „Hilfe“ mit Schritt-für-Schritt-Anleitung vom ersten Start bis zur ersten Show.
 - **Englisch**: Oberfläche und Hilfe auch auf Englisch.
