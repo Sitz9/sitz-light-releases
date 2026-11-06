@@ -50,9 +50,11 @@ Für das beste Zusammenspiel von Musik und Licht empfehlen wir drei Bausteine:
 
 ## Neu
 
-### Version 0.12.0 (01.11.2026)
+### Version 0.12.0 (06.11.2026)
 
-- **iPad und Handy koppeln**: Nur gekoppelte Geräte dürfen Sitz Light bedienen. Am Licht-Rechner unter Einstellungen → Fernbedienung „Neues Gerät koppeln“ wählen, dann am iPad die PIN eingeben oder den QR-Code abfotografieren. Für jedes Gerät wählst du „Bedienen“ (nur Live) oder „Einrichten“ (alles). Nach dem Update müssen iPad und Handy einmal neu gekoppelt werden.
+- **Wichtig nach dem Update: iPad und Handy einmal neu koppeln.** Am Licht-Rechner unter Einstellungen → Bedienung „Neues Gerät koppeln“ wählen und am iPad bzw. Handy die PIN eingeben oder den QR-Code abfotografieren.
+- **Deine Anordnung bleibt erhalten**: Anordnung von Live und Launchpad, Knöpfe mit Namen und Farben, Fußzeile und Hintergrund werden jetzt dauerhaft gespeichert. In den Testversionen gingen sie nach einem Neustart verloren; richte sie nach dem Update bitte einmal neu ein.
+- **iPad und Handy koppeln**: Nur gekoppelte Geräte dürfen Sitz Light bedienen. Am Licht-Rechner unter Einstellungen → Bedienung „Neues Gerät koppeln“ wählen, dann am iPad die PIN eingeben oder den QR-Code abfotografieren. Für jedes Gerät wählst du „Bedienen“ (nur Live) oder „Einrichten“ (alles). Nach dem Update müssen iPad und Handy einmal neu gekoppelt werden.
 - **Live und Launchpad nach deinen Wünschen**: Beide nutzen den ganzen Bildschirm, ohne Scrollen. Mit „Anordnen“ (oben) verschiebst du Bausteine frei und änderst ihre Größe, mit oder ohne Raster, getrennt für Rechner, iPad quer, iPad hoch und Handy. Nichts überlappt.
 - **Launchpad als eigener Reiter**: Jede Funktion lässt sich als Knopf ablegen (Blinder, Strobe, Laser, Farben, Shows, Genres, Phrasen, Szenen, Momente, Master, Mover …), mit eigenem Namen und eigener Farbe. Der Name darf bis drei Zeilen lang sein, die Schrift passt sich an. Blinder, Strobe und Laser tragen immer ein Warnzeichen. Eingerastet laufen Blinder und Strobe höchstens die eingestellte Zeit (Standard 10 s, höchstens 30 s) mit Countdown.
 - **Fußzeile auf allen Reitern**: flach, über die ganze Breite, mit Master, Blinder, Strobe, Laser und Blackout; Reihenfolge und Breite wählbar, Tap und BPM auf Wunsch. **Blackout ist immer da** und lässt sich nicht entfernen.
